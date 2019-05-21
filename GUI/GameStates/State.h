@@ -6,12 +6,19 @@
 #define HIROLSY_STATE_H
 
 
+#include <vector>
+#include <memory>
+#include "../GUIObject/GUIObject.h"
+class GUIObject;
 class State {
 private:
-    State* prevState;
+    std::shared_ptr<State> prevState{};
+    std::vector<GUIObject*> items;
 public:
-    explicit State(State *prevState) : prevState(prevState) {}
+    State(const std::shared_ptr <State> &prevState) : prevState(prevState) {}
 
+    virtual void render()=0;
+    virtual void input()=0;
 };
 
 

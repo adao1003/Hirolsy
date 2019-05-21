@@ -6,8 +6,11 @@
 #define HIROLSY_STATEMACHINE_H
 
 
+#include "GameStates/State.h"
+#include <memory>
+class State;
 class StateMachine {
-
+    std::shared_ptr<State> currentState;
 };
 
 

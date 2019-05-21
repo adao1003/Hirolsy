@@ -10,6 +10,7 @@
 
 class Game {
     StateMachine stateMachine;
+    
 };
 
 
