@@ -15,10 +15,9 @@ private:
     std::shared_ptr<State> prevState{};
     std::vector<GUIObject*> items;
 public:
-    State(const std::shared_ptr <State> &prevState) : prevState(prevState) {}
+    explicit State(const std::shared_ptr <State> &prevState) : prevState(prevState) {}
 
     virtual void render()=0;
-    virtual void input()=0;
 };
 
 
