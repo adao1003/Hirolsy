@@ -12,7 +12,6 @@
 class Button: public GUIObject {
     sf::Texture texture;
 public:
-
 };
 
 

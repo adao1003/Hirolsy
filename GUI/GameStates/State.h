@@ -13,9 +13,10 @@ class GUIObject;
 class State {
 private:
     std::shared_ptr<State> prevState{};
-    std::vector<GUIObject*> items;
+    std::vector<std::shared_ptr<GUIObject>> items;
+    sf::Window& window;
 public:
-    explicit State(const std::shared_ptr <State> &prevState) : prevState(prevState) {}
+    explicit State(const std::shared_ptr <State> &prevState, sf::Window& window) : prevState(prevState), window(window) {}
 
     virtual void render()=0;
 };

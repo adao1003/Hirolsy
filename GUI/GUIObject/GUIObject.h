@@ -15,6 +15,7 @@ protected:
     std::function<void(StateMachine&)> onClick;
     sf::Sprite sprite;
 public:
+
 };
 
 
