@@ -6,4 +6,5 @@
 #include "GameStates/MainMenu.h"
 
 
-StateMachine::StateMachine(sf::Window &window) : window(window), currentState(std::dynamic_pointer_cast<State>(std::make_shared<MainMenu>(nullptr, window))) {}
+StateMachine::StateMachine(sf::RenderWindow &window, EventQueue &queue)
+        : window(window), currentState(std::dynamic_pointer_cast<State>(std::make_shared<MainMenu>(nullptr, window, queue))), eventQueue(queue) {}

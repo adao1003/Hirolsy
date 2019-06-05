@@ -7,15 +7,18 @@
 
 
 #include "GameStates/State.h"
+#include "GameStates/MainMenu.h"
+#include "../Events/EventQueue.h"
 #include <memory>
-#include <SFML/Window.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
 
 class State;
 class StateMachine {
     std::shared_ptr<State> currentState;
-    sf::Window& window;
+    sf::RenderWindow& window;
+    EventQueue& eventQueue;
 public:
-    StateMachine(sf::Window &window);
+    StateMachine(sf::RenderWindow &window, EventQueue &queue);
 };
 
 

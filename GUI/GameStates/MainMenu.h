@@ -9,7 +9,11 @@
 #include "State.h"
 
 class MainMenu: public State {
-    
+public:
+    MainMenu(const std::shared_ptr<State> &prevState, sf::RenderWindow &window, EventQueue &eventQueue);
+
+    void render() override;
+    void input() override;
 };
 
 

@@ -8,14 +8,17 @@
 #include <functional>
 #include <SFML/Graphics/Sprite.hpp>
 #include "../StateMachine.h"
+#include <SFML/Graphics/RenderWindow.hpp>
 
 class StateMachine;
 class GUIObject {
 protected:
     std::function<void(StateMachine&)> onClick;
     sf::Sprite sprite;
+    sf::RenderWindow& window;
 public:
-
+    void draw();
+    bool isMouseHover();
 };
 
 

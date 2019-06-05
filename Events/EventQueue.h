@@ -6,8 +6,13 @@
 #define HIROLSY_EVENTQUEUE_H
 
 
-class EventQueue {
+#include <queue>
+#include "Event.h"
 
+class EventQueue {
+    std::queue<Event> queue;
+public:
+    
 };
 
 

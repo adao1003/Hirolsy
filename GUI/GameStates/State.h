@@ -9,15 +9,19 @@
 #include <vector>
 #include <memory>
 #include "../GUIObject/GUIObject.h"
+#include "../../Events/EventQueue.h"
+#include <SFML/Graphics/RenderWindow.hpp>
 class GUIObject;
 class State {
-private:
+protected:
     std::shared_ptr<State> prevState{};
     std::vector<std::shared_ptr<GUIObject>> items;
-    sf::Window& window;
+    sf::RenderWindow& window;
+    EventQueue& eventQueue;
 public:
-    explicit State(const std::shared_ptr <State> &prevState, sf::Window& window) : prevState(prevState), window(window) {}
-
+    explicit State(const std::shared_ptr<State> &prevState, sf::RenderWindow &window, EventQueue &eventQueue)
+            : prevState(prevState), window(window), eventQueue(eventQueue) {}
+    virtual void input()=0;
     virtual void render()=0;
 };
 
