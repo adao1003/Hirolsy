@@ -12,6 +12,7 @@
 class Button: public GUIObject {
     sf::Texture texture;
 public:
+    Button(sf::RenderWindow &window);
 };
 
 

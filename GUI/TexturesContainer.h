@@ -8,18 +8,21 @@
 
 #include <vector>
 #include <SFML/Graphics/Texture.hpp>
-
+#include <map>
+#include <filesystem>
 class TexturesContainer {
-    std::vector<sf::Texture> vector;
-    TexturesContainer() = default;;
-    ~TexturesContainer() = default;;
-    TexturesContainer(const TexturesContainer& t) {} ;
+    std::map<std::string, sf::Texture> textures;
+    TexturesContainer();
+    ~TexturesContainer() = default;
+    sf::Texture empty;
 public:
-    static TexturesContainer getInstance()
+    TexturesContainer(const TexturesContainer& t) = delete;
+    static TexturesContainer& getInstance()
     {
         static TexturesContainer sig;
         return sig;
     }
+    sf::Texture& getTexture(std::string string);
 
 };
 

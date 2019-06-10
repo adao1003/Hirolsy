@@ -12,3 +12,5 @@ void GUIObject::draw() {
 bool GUIObject::isMouseHover() {
     return sprite.getGlobalBounds().contains(static_cast<sf::Vector2f>(sf::Mouse::getPosition()));
 }
+
+GUIObject::GUIObject(sf::RenderWindow &window) : window(window) {}

@@ -13,12 +13,14 @@
 class StateMachine;
 class GUIObject {
 protected:
-    std::function<void(StateMachine&)> onClick;
     sf::Sprite sprite;
     sf::RenderWindow& window;
 public:
+    std::function<void(StateMachine&)> onClick;
     void draw();
     bool isMouseHover();
+
+    GUIObject(sf::RenderWindow &window);
 };
 
 

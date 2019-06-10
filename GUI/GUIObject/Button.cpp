@@ -3,3 +3,5 @@
 //
 
 #include "Button.h"
+
+Button::Button(sf::RenderWindow &window) : GUIObject(window) {}

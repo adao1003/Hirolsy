@@ -10,7 +10,9 @@
 
 class MainMenu: public State {
 public:
-    MainMenu(const std::shared_ptr<State> &prevState, sf::RenderWindow &window, EventQueue &eventQueue);
+
+    MainMenu(const std::shared_ptr<State> &prevState, sf::RenderWindow &window, EventQueue &eventQueue,
+             StateMachine &stateMachine);
 
     void render() override;
     void input() override;
