@@ -4,4 +4,7 @@
 
 #include "Button.h"
 
-Button::Button(sf::RenderWindow &window) : GUIObject(window) {}
+Button::Button(sf::RenderWindow &window, sf::Texture &texture, const sf::Vector2f &vec) : GUIObject(window, sf::Sprite(texture), vec) {
+    sprite.setPosition(vec.x, vec.y);
+}
+

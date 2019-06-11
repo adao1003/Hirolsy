@@ -16,6 +16,8 @@ class Game {
     EventQueue eventQueue;
 public:
     Game() : stateMachine(window, eventQueue) {}
+
+    Game(unsigned int width, unsigned int height);
 };
 
 

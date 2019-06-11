@@ -19,6 +19,10 @@ class StateMachine {
     EventQueue& eventQueue;
 public:
     StateMachine(sf::RenderWindow &window, EventQueue &queue);
+    void render();
+    void input();
+    void pullState();
+    void pushState(const std::shared_ptr<State>& state);
 };
 
 

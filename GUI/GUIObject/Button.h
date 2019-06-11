@@ -10,9 +10,9 @@
 #include "GUIObject.h"
 
 class Button: public GUIObject {
-    sf::Texture texture;
 public:
-    Button(sf::RenderWindow &window);
+    Button(sf::RenderWindow &window, sf::Texture &texture, const sf::Vector2f &vec);
+
 };
 
 

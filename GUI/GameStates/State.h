@@ -27,7 +27,10 @@ public:
             : prevState(prevState), window(window), eventQueue(eventQueue), stateMachine(stateMachine) {}
     virtual void input()=0;
     virtual void render()=0;
-};
 
+    const std::shared_ptr<State> &getPrevState() const {
+        return prevState;
+    }
+};
 
 #endif //HIROLSY_STATE_H
