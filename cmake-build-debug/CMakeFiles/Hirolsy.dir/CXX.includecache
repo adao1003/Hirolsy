@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adao1003/CLionProjects/Hirolsy/Events/Event.cpp
-Event.h
 /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
-
-/home/adao1003/CLionProjects/Hirolsy/Events/Event.h
-
-/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.cpp
-EventQueue.h
-/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
 
 /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
 queue
@@ -59,16 +51,30 @@ SFML/Graphics/Sprite.hpp
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 SFML/Graphics/RenderWindow.hpp
 -
+iostream
+-
 
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.cpp
 SFML/Window/Event.hpp
 -
 MainMenu.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+../GUIObject/Button.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
+../TexturesContainer.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h
 
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
-State.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
+../StateMachine.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
+
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.cpp
+NewGame.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h
+
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h
+../StateMachine.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
 vector
@@ -87,8 +93,6 @@ SFML/Graphics/RenderWindow.hpp
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.cpp
 StateMachine.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
-GameStates/MainMenu.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
 
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 GameStates/State.h
@@ -101,12 +105,6 @@ memory
 -
 SFML/Graphics/RenderWindow.hpp
 -
-
-/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.cpp
-iostream
--
-TexturesContainer.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h
 
 /home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h
 vector
@@ -130,9 +128,11 @@ GUI/StateMachine.h
 Events/EventQueue.h
 /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
 
-/home/adao1003/CLionProjects/Hirolsy/Settings.cpp
-Settings.h
-/home/adao1003/CLionProjects/Hirolsy/Settings.h
-
-/home/adao1003/CLionProjects/Hirolsy/Settings.h
+/home/adao1003/CLionProjects/Hirolsy/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+Game.h
+/home/adao1003/CLionProjects/Hirolsy/Game.h
 

@@ -3,7 +3,6 @@
 //
 
 #include "StateMachine.h"
-#include "GameStates/MainMenu.h"
 
 
 StateMachine::StateMachine(sf::RenderWindow &window, EventQueue &queue)

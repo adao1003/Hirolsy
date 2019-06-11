@@ -23,7 +23,6 @@ void MainMenu::input() {
         {
         }
     }
-
     for(auto& it:items)
     {
         if(it->isMouseHover())

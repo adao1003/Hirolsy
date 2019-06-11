@@ -6,8 +6,7 @@
 #define HIROLSY_MAINMENU_H
 
 
-#include "State.h"
-
+#include "../StateMachine.h"
 class MainMenu: public State {
 public:
 

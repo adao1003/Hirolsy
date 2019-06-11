@@ -120,6 +120,12 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h">
 			<Option target="Hirolsy"/>
 		</Unit>

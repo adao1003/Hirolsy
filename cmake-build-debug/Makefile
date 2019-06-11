@@ -285,6 +285,33 @@ GUI/GameStates/MainMenu.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.s
 .PHONY : GUI/GameStates/MainMenu.cpp.s
 
+GUI/GameStates/NewGame.o: GUI/GameStates/NewGame.cpp.o
+
+.PHONY : GUI/GameStates/NewGame.o
+
+# target to build an object file
+GUI/GameStates/NewGame.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o
+.PHONY : GUI/GameStates/NewGame.cpp.o
+
+GUI/GameStates/NewGame.i: GUI/GameStates/NewGame.cpp.i
+
+.PHONY : GUI/GameStates/NewGame.i
+
+# target to preprocess a source file
+GUI/GameStates/NewGame.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.i
+.PHONY : GUI/GameStates/NewGame.cpp.i
+
+GUI/GameStates/NewGame.s: GUI/GameStates/NewGame.cpp.s
+
+.PHONY : GUI/GameStates/NewGame.s
+
+# target to generate assembly for a file
+GUI/GameStates/NewGame.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.s
+.PHONY : GUI/GameStates/NewGame.cpp.s
+
 GUI/Input.o: GUI/Input.cpp.o
 
 .PHONY : GUI/Input.o
@@ -501,6 +528,9 @@ help:
 	@echo "... GUI/GameStates/MainMenu.o"
 	@echo "... GUI/GameStates/MainMenu.i"
 	@echo "... GUI/GameStates/MainMenu.s"
+	@echo "... GUI/GameStates/NewGame.o"
+	@echo "... GUI/GameStates/NewGame.i"
+	@echo "... GUI/GameStates/NewGame.s"
 	@echo "... GUI/Input.o"
 	@echo "... GUI/Input.i"
 	@echo "... GUI/Input.s"
