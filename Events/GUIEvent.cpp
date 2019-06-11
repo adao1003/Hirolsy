@@ -3,3 +3,5 @@
 //
 
 #include "GUIEvent.h"
+
+GUIEvent::GUIEvent(Event::Type type, GUIObject &guiObject) : Event(type), guiObject(guiObject) {}

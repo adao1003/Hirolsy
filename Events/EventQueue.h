@@ -12,7 +12,6 @@
 class EventQueue {
     std::queue<Event> queue;
 public:
-    
 };
 
 

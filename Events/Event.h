@@ -5,16 +5,16 @@
 #ifndef HIROLSY_EVENT_H
 #define HIROLSY_EVENT_H
 
-#include <any>
 
 
 class Event {
-    std::any Emiter;
+public:
     enum Type {
         None,
         Clicked
     };
     Type type;
+    Event(Type type);
 };
 
 

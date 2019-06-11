@@ -12,6 +12,8 @@
 
 class GUIEvent: public Event {
     GUIObject& guiObject;
+public:
+    GUIEvent(Type type, GUIObject &guiObject);
 };
 
 

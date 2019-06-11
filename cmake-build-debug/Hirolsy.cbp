@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Hirolsy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hirolsy">
+				<Option output="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Hirolsy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hirolsy"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hirolsy/fast">
+				<Option output="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Hirolsy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hirolsy/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/Event.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/Event.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/GUIEvent.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/GUIEvent.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/Input.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/Input.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Game.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Game.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Settings.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Settings.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/main.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
