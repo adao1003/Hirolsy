@@ -12,17 +12,19 @@
 #include <iostream>
 
 class StateMachine;
-void test (StateMachine& e);
+
 class GUIObject {
 protected:
     sf::Sprite sprite;
     sf::RenderWindow& window;
 public:
+    static void test (StateMachine& e);
     std::function<void(StateMachine&)> onClick = test;
     void draw();
     bool isMouseHover();
-    void pullState();
     GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec);
+    GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec,
+              std::function<void(StateMachine &)> onClick);
 };
 
 
