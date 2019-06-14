@@ -14,7 +14,7 @@ CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../Events/GUIEvent.cpp
 CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../Events/GUIEvent.h
 CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../GUI/GUIObject/Button.h
 CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o: ../GUI/StateMachine.h
 
@@ -23,7 +23,7 @@ CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/GUIObject/Button.cpp
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/GUIObject/Button.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o: ../GUI/StateMachine.h
 
@@ -31,34 +31,37 @@ CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../Events/Event.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/GUIObject/GUIObject.cpp
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/StateMachine.h
 
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../Events/Event.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../Events/EventQueue.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/GUIObject/Button.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/GameStates/MainMenu.cpp
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/GameStates/MainMenu.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/GameStates/State.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/StateMachine.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o: ../GUI/TexturesContainer.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../Events/Event.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../Events/EventQueue.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/GUIObject/Button.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/GUIObject/GUIObject.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/GameStates/MainMenuState.cpp
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/GameStates/MainMenuState.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/GameStates/NewGameState.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/GameStates/State.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/StateMachine.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o: ../GUI/TexturesContainer.h
 
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../Events/Event.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../Events/EventQueue.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../GUI/GameStates/MainMenu.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../GUI/GameStates/NewGame.cpp
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../GUI/GameStates/NewGame.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../GUI/GameStates/State.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o: ../GUI/StateMachine.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../Events/Event.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../Events/EventQueue.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/GUIObject/Button.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/GUIObject/GUIObject.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/GameStates/MainMenuState.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/GameStates/NewGameState.cpp
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/GameStates/NewGameState.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/GameStates/State.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/StateMachine.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o: ../GUI/TexturesContainer.h
 
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../Events/Event.h
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/GUIObject/Button.h
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/GameStates/State.cpp
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o: ../GUI/StateMachine.h
@@ -70,7 +73,7 @@ CMakeFiles/Hirolsy.dir/GUI/Input.cpp.o: ../GUI/Input.h
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../Events/Event.h
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../GUI/StateMachine.cpp
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o: ../GUI/StateMachine.h
@@ -81,7 +84,7 @@ CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o: ../GUI/TexturesContainer.h
 CMakeFiles/Hirolsy.dir/Game.cpp.o: ../Events/Event.h
 CMakeFiles/Hirolsy.dir/Game.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/Game.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/Game.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/Game.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/Game.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/Game.cpp.o: ../GUI/StateMachine.h
 CMakeFiles/Hirolsy.dir/Game.cpp.o: ../Game.cpp
@@ -96,7 +99,7 @@ CMakeFiles/Hirolsy.dir/Settings.cpp.o: ../Settings.h
 CMakeFiles/Hirolsy.dir/main.cpp.o: ../Events/Event.h
 CMakeFiles/Hirolsy.dir/main.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/main.cpp.o: ../GUI/GUIObject/GUIObject.h
-CMakeFiles/Hirolsy.dir/main.cpp.o: ../GUI/GameStates/MainMenu.h
+CMakeFiles/Hirolsy.dir/main.cpp.o: ../GUI/GameStates/MainMenuState.h
 CMakeFiles/Hirolsy.dir/main.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/main.cpp.o: ../GUI/StateMachine.h
 CMakeFiles/Hirolsy.dir/main.cpp.o: ../Game.h

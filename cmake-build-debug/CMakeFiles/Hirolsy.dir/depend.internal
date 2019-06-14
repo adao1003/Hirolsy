@@ -15,7 +15,7 @@ CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/GUIEvent.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o
@@ -24,7 +24,7 @@ CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.cpp
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o
@@ -32,34 +32,37 @@ CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.cpp
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o
+CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.cpp
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.cpp
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h
-CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o
+CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.cpp
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.cpp
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h
 CMakeFiles/Hirolsy.dir/GUI/GameStates/State.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.cpp
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
@@ -71,7 +74,7 @@ CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.cpp
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
@@ -82,7 +85,7 @@ CMakeFiles/Hirolsy.dir/Game.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
  /home/adao1003/CLionProjects/Hirolsy/Game.cpp
@@ -97,7 +100,7 @@ CMakeFiles/Hirolsy.dir/main.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
- /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
  /home/adao1003/CLionProjects/Hirolsy/Game.h

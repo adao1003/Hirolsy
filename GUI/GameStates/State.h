@@ -22,13 +22,13 @@ protected:
     sf::RenderWindow& window;
     EventQueue& eventQueue;
 public:
-    explicit State(const std::shared_ptr<State> &prevState, sf::RenderWindow &window, EventQueue &eventQueue,
-                   StateMachine &stateMachine)
+    explicit State(sf::RenderWindow &window, EventQueue &eventQueue, StateMachine &stateMachine,
+                   const std::shared_ptr<State> &prevState = nullptr)
             : prevState(prevState), window(window), eventQueue(eventQueue), stateMachine(stateMachine) {}
 
-    const std::shared_ptr<State> &getPrevState() const {
-        return prevState;
-    }
+    const std::shared_ptr<State> &getPrevState() const;
+
+    void setPrevState(const std::shared_ptr<State> &prevState);
 
     virtual void render();
 

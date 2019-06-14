@@ -13,9 +13,10 @@
 class TexturesContainer {
     std::map<std::string, sf::Texture> textures;
     TexturesContainer();
-    ~TexturesContainer() = default;
+
     sf::Texture empty;
 public:
+    ~TexturesContainer() = default;
     TexturesContainer(const TexturesContainer& t) = delete;
     static TexturesContainer& getInstance()
     {

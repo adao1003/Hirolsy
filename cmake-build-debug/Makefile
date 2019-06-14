@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/adao1003/CLionProjects/Hirolsy/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -258,59 +258,59 @@ GUI/GUIObject/GUIObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.s
 .PHONY : GUI/GUIObject/GUIObject.cpp.s
 
-GUI/GameStates/MainMenu.o: GUI/GameStates/MainMenu.cpp.o
+GUI/GameStates/MainMenuState.o: GUI/GameStates/MainMenuState.cpp.o
 
-.PHONY : GUI/GameStates/MainMenu.o
-
-# target to build an object file
-GUI/GameStates/MainMenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.o
-.PHONY : GUI/GameStates/MainMenu.cpp.o
-
-GUI/GameStates/MainMenu.i: GUI/GameStates/MainMenu.cpp.i
-
-.PHONY : GUI/GameStates/MainMenu.i
-
-# target to preprocess a source file
-GUI/GameStates/MainMenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.i
-.PHONY : GUI/GameStates/MainMenu.cpp.i
-
-GUI/GameStates/MainMenu.s: GUI/GameStates/MainMenu.cpp.s
-
-.PHONY : GUI/GameStates/MainMenu.s
-
-# target to generate assembly for a file
-GUI/GameStates/MainMenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenu.cpp.s
-.PHONY : GUI/GameStates/MainMenu.cpp.s
-
-GUI/GameStates/NewGame.o: GUI/GameStates/NewGame.cpp.o
-
-.PHONY : GUI/GameStates/NewGame.o
+.PHONY : GUI/GameStates/MainMenuState.o
 
 # target to build an object file
-GUI/GameStates/NewGame.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.o
-.PHONY : GUI/GameStates/NewGame.cpp.o
+GUI/GameStates/MainMenuState.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o
+.PHONY : GUI/GameStates/MainMenuState.cpp.o
 
-GUI/GameStates/NewGame.i: GUI/GameStates/NewGame.cpp.i
+GUI/GameStates/MainMenuState.i: GUI/GameStates/MainMenuState.cpp.i
 
-.PHONY : GUI/GameStates/NewGame.i
+.PHONY : GUI/GameStates/MainMenuState.i
 
 # target to preprocess a source file
-GUI/GameStates/NewGame.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.i
-.PHONY : GUI/GameStates/NewGame.cpp.i
+GUI/GameStates/MainMenuState.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.i
+.PHONY : GUI/GameStates/MainMenuState.cpp.i
 
-GUI/GameStates/NewGame.s: GUI/GameStates/NewGame.cpp.s
+GUI/GameStates/MainMenuState.s: GUI/GameStates/MainMenuState.cpp.s
 
-.PHONY : GUI/GameStates/NewGame.s
+.PHONY : GUI/GameStates/MainMenuState.s
 
 # target to generate assembly for a file
-GUI/GameStates/NewGame.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGame.cpp.s
-.PHONY : GUI/GameStates/NewGame.cpp.s
+GUI/GameStates/MainMenuState.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.s
+.PHONY : GUI/GameStates/MainMenuState.cpp.s
+
+GUI/GameStates/NewGameState.o: GUI/GameStates/NewGameState.cpp.o
+
+.PHONY : GUI/GameStates/NewGameState.o
+
+# target to build an object file
+GUI/GameStates/NewGameState.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o
+.PHONY : GUI/GameStates/NewGameState.cpp.o
+
+GUI/GameStates/NewGameState.i: GUI/GameStates/NewGameState.cpp.i
+
+.PHONY : GUI/GameStates/NewGameState.i
+
+# target to preprocess a source file
+GUI/GameStates/NewGameState.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.i
+.PHONY : GUI/GameStates/NewGameState.cpp.i
+
+GUI/GameStates/NewGameState.s: GUI/GameStates/NewGameState.cpp.s
+
+.PHONY : GUI/GameStates/NewGameState.s
+
+# target to generate assembly for a file
+GUI/GameStates/NewGameState.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.s
+.PHONY : GUI/GameStates/NewGameState.cpp.s
 
 GUI/GameStates/State.o: GUI/GameStates/State.cpp.o
 
@@ -552,12 +552,12 @@ help:
 	@echo "... GUI/GUIObject/GUIObject.o"
 	@echo "... GUI/GUIObject/GUIObject.i"
 	@echo "... GUI/GUIObject/GUIObject.s"
-	@echo "... GUI/GameStates/MainMenu.o"
-	@echo "... GUI/GameStates/MainMenu.i"
-	@echo "... GUI/GameStates/MainMenu.s"
-	@echo "... GUI/GameStates/NewGame.o"
-	@echo "... GUI/GameStates/NewGame.i"
-	@echo "... GUI/GameStates/NewGame.s"
+	@echo "... GUI/GameStates/MainMenuState.o"
+	@echo "... GUI/GameStates/MainMenuState.i"
+	@echo "... GUI/GameStates/MainMenuState.s"
+	@echo "... GUI/GameStates/NewGameState.o"
+	@echo "... GUI/GameStates/NewGameState.i"
+	@echo "... GUI/GameStates/NewGameState.s"
 	@echo "... GUI/GameStates/State.o"
 	@echo "... GUI/GameStates/State.i"
 	@echo "... GUI/GameStates/State.s"

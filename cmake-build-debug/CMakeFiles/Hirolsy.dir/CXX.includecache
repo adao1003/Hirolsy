@@ -26,15 +26,7 @@ SFML/Graphics/RenderWindow.hpp
 iostream
 -
 
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
-../StateMachine.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
-
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.cpp
-NewGame.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h
-
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
 ../StateMachine.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 
@@ -52,11 +44,17 @@ memory
 SFML/Graphics/RenderWindow.hpp
 -
 
+/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.cpp
+StateMachine.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
+GameStates/MainMenuState.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
+
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 GameStates/State.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
-GameStates/MainMenu.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h
+GameStates/MainMenuState.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
 ../Events/EventQueue.h
 /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
 memory

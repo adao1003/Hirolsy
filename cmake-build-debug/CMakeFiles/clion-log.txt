@@ -1,4 +1,4 @@
-/home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/adao1003/CLionProjects/Hirolsy
+/home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/adao1003/CLionProjects/Hirolsy
 -- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
 -- Configuring done
 -- Generating done
