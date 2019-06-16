@@ -11,7 +11,7 @@
 class NewGameState: public State {
 public:
     NewGameState(sf::RenderWindow &window, EventQueue &eventQueue, StateMachine &stateMachine,
-                 const std::shared_ptr<State> &prevState);
+                 const std::shared_ptr<State> &prevState = nullptr);
 };
 
 

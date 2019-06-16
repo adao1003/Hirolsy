@@ -3,9 +3,9 @@
 //
 
 #include <iostream>
-#include "TexturesContainer.h"
+#include "ResourcesContainer.h"
 
-TexturesContainer::TexturesContainer() {
+ResourcesContainer::ResourcesContainer() {
     for (auto &p: std::filesystem::directory_iterator("img"))
     {
         sf::Texture temp ;
@@ -14,7 +14,7 @@ TexturesContainer::TexturesContainer() {
     }
 }
 
-sf::Texture &TexturesContainer::getTexture(std::string string) {
+sf::Texture &ResourcesContainer::getTexture(std::string string) {
     try
     {
         return textures.at(string);

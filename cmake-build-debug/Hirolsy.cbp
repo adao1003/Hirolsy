@@ -114,16 +114,16 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.cpp">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenu.h">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.cpp">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGame.h">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.cpp">
@@ -138,22 +138,34 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/Input.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.cpp">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.h">
-			<Option target="Hirolsy"/>
-		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Game.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Game.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.cpp">

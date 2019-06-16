@@ -366,6 +366,33 @@ GUI/Input.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/Input.cpp.s
 .PHONY : GUI/Input.cpp.s
 
+GUI/ResourcesContainer.o: GUI/ResourcesContainer.cpp.o
+
+.PHONY : GUI/ResourcesContainer.o
+
+# target to build an object file
+GUI/ResourcesContainer.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o
+.PHONY : GUI/ResourcesContainer.cpp.o
+
+GUI/ResourcesContainer.i: GUI/ResourcesContainer.cpp.i
+
+.PHONY : GUI/ResourcesContainer.i
+
+# target to preprocess a source file
+GUI/ResourcesContainer.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.i
+.PHONY : GUI/ResourcesContainer.cpp.i
+
+GUI/ResourcesContainer.s: GUI/ResourcesContainer.cpp.s
+
+.PHONY : GUI/ResourcesContainer.s
+
+# target to generate assembly for a file
+GUI/ResourcesContainer.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.s
+.PHONY : GUI/ResourcesContainer.cpp.s
+
 GUI/StateFactory.o: GUI/StateFactory.cpp.o
 
 .PHONY : GUI/StateFactory.o
@@ -420,33 +447,6 @@ GUI/StateMachine.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.s
 .PHONY : GUI/StateMachine.cpp.s
 
-GUI/TexturesContainer.o: GUI/TexturesContainer.cpp.o
-
-.PHONY : GUI/TexturesContainer.o
-
-# target to build an object file
-GUI/TexturesContainer.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o
-.PHONY : GUI/TexturesContainer.cpp.o
-
-GUI/TexturesContainer.i: GUI/TexturesContainer.cpp.i
-
-.PHONY : GUI/TexturesContainer.i
-
-# target to preprocess a source file
-GUI/TexturesContainer.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.i
-.PHONY : GUI/TexturesContainer.cpp.i
-
-GUI/TexturesContainer.s: GUI/TexturesContainer.cpp.s
-
-.PHONY : GUI/TexturesContainer.s
-
-# target to generate assembly for a file
-GUI/TexturesContainer.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.s
-.PHONY : GUI/TexturesContainer.cpp.s
-
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -473,6 +473,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+GameLogic/GameObject.o: GameLogic/GameObject.cpp.o
+
+.PHONY : GameLogic/GameObject.o
+
+# target to build an object file
+GameLogic/GameObject.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o
+.PHONY : GameLogic/GameObject.cpp.o
+
+GameLogic/GameObject.i: GameLogic/GameObject.cpp.i
+
+.PHONY : GameLogic/GameObject.i
+
+# target to preprocess a source file
+GameLogic/GameObject.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.i
+.PHONY : GameLogic/GameObject.cpp.i
+
+GameLogic/GameObject.s: GameLogic/GameObject.cpp.s
+
+.PHONY : GameLogic/GameObject.s
+
+# target to generate assembly for a file
+GameLogic/GameObject.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.s
+.PHONY : GameLogic/GameObject.cpp.s
 
 GameLogic/Map.o: GameLogic/Map.cpp.o
 
@@ -591,18 +618,21 @@ help:
 	@echo "... GUI/Input.o"
 	@echo "... GUI/Input.i"
 	@echo "... GUI/Input.s"
+	@echo "... GUI/ResourcesContainer.o"
+	@echo "... GUI/ResourcesContainer.i"
+	@echo "... GUI/ResourcesContainer.s"
 	@echo "... GUI/StateFactory.o"
 	@echo "... GUI/StateFactory.i"
 	@echo "... GUI/StateFactory.s"
 	@echo "... GUI/StateMachine.o"
 	@echo "... GUI/StateMachine.i"
 	@echo "... GUI/StateMachine.s"
-	@echo "... GUI/TexturesContainer.o"
-	@echo "... GUI/TexturesContainer.i"
-	@echo "... GUI/TexturesContainer.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameLogic/GameObject.o"
+	@echo "... GameLogic/GameObject.i"
+	@echo "... GameLogic/GameObject.s"
 	@echo "... GameLogic/Map.o"
 	@echo "... GameLogic/Map.i"
 	@echo "... GameLogic/Map.s"

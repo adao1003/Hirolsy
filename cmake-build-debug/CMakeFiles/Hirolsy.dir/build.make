@@ -187,18 +187,18 @@ CMakeFiles/Hirolsy.dir/Events/EventQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/Events/EventQueue.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.cpp -o CMakeFiles/Hirolsy.dir/Events/EventQueue.cpp.s
 
-CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
-CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o: ../GUI/TexturesContainer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.cpp
+CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
+CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o: ../GUI/ResourcesContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.cpp
 
-CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.cpp > CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.i
+CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.cpp > CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.i
 
-CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GUI/TexturesContainer.cpp -o CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.s
+CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.cpp -o CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.s
 
 CMakeFiles/Hirolsy.dir/Events/Event.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/Events/Event.cpp.o: ../Events/Event.cpp
@@ -265,6 +265,19 @@ CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.cpp -o CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.s
 
+CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
+CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o: ../GameLogic/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp
+
+CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp > CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.i
+
+CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.s
+
 # Object files for target Hirolsy
 Hirolsy_OBJECTS = \
 "CMakeFiles/Hirolsy.dir/main.cpp.o" \
@@ -277,12 +290,13 @@ Hirolsy_OBJECTS = \
 "CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GUI/Input.cpp.o" \
 "CMakeFiles/Hirolsy.dir/Events/EventQueue.cpp.o" \
-"CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o" \
+"CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o" \
 "CMakeFiles/Hirolsy.dir/Events/Event.cpp.o" \
 "CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o" \
 "CMakeFiles/Hirolsy.dir/Settings.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o" \
-"CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o"
+"CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o" \
+"CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o"
 
 # External object files for target Hirolsy
 Hirolsy_EXTERNAL_OBJECTS =
@@ -297,19 +311,20 @@ Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GUI/Input.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/Events/EventQueue.cpp.o
-Hirolsy: CMakeFiles/Hirolsy.dir/GUI/TexturesContainer.cpp.o
+Hirolsy: CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/Events/Event.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/Settings.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o
+Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/build.make
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Hirolsy: CMakeFiles/Hirolsy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Hirolsy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Hirolsy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hirolsy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,7 +5,7 @@
 #include <SFML/Window/Event.hpp>
 #include "MainMenuState.h"
 #include "../GUIObject/Button.h"
-#include "../TexturesContainer.h"
+#include "../ResourcesContainer.h"
 #include "State.h"
 
 void State::render() {
