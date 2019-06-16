@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/adao1003/CLionProjects/Hirolsy/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/adao1003/clion-2019.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/adao1003/Downloads/clion-2018.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -366,6 +366,33 @@ GUI/Input.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/Input.cpp.s
 .PHONY : GUI/Input.cpp.s
 
+GUI/StateFactory.o: GUI/StateFactory.cpp.o
+
+.PHONY : GUI/StateFactory.o
+
+# target to build an object file
+GUI/StateFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o
+.PHONY : GUI/StateFactory.cpp.o
+
+GUI/StateFactory.i: GUI/StateFactory.cpp.i
+
+.PHONY : GUI/StateFactory.i
+
+# target to preprocess a source file
+GUI/StateFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.i
+.PHONY : GUI/StateFactory.cpp.i
+
+GUI/StateFactory.s: GUI/StateFactory.cpp.s
+
+.PHONY : GUI/StateFactory.s
+
+# target to generate assembly for a file
+GUI/StateFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.s
+.PHONY : GUI/StateFactory.cpp.s
+
 GUI/StateMachine.o: GUI/StateMachine.cpp.o
 
 .PHONY : GUI/StateMachine.o
@@ -564,6 +591,9 @@ help:
 	@echo "... GUI/Input.o"
 	@echo "... GUI/Input.i"
 	@echo "... GUI/Input.s"
+	@echo "... GUI/StateFactory.o"
+	@echo "... GUI/StateFactory.i"
+	@echo "... GUI/StateFactory.s"
 	@echo "... GUI/StateMachine.o"
 	@echo "... GUI/StateMachine.i"
 	@echo "... GUI/StateMachine.s"

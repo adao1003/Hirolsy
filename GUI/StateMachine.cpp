@@ -4,10 +4,14 @@
 
 #include "StateMachine.h"
 #include "GameStates/MainMenuState.h"
+#include "StateFactory.h"
 
 
 StateMachine::StateMachine(sf::RenderWindow &window, EventQueue &queue)
-        : window(window), currentState(std::dynamic_pointer_cast<State>(std::make_shared<MainMenuState>(window, queue, (*this), nullptr))), eventQueue(queue) {}
+        : window(window), eventQueue(queue),
+        stateFactory(window, *this, eventQueue){
+    currentState= stateFactory.createState(StateFactory::stateName::MainMenu);
+}
 
 void StateMachine::render() {
     currentState->render();
@@ -22,14 +26,7 @@ void StateMachine::pullState() {
 }
 
 void StateMachine::pushState(const std::shared_ptr<State>& state) {
+    state->setPrevState(currentState);
     currentState=state;
-}
-
-std::shared_ptr<State> StateMachine::createState(stateName name) {
-    switch (name) {
-        case MainMenu:
-            return std::dynamic_pointer_cast<State>(std::make_shared<MainMenuState>(window, eventQueue, this));
-            break;
-    }
 }
 

@@ -9,25 +9,23 @@
 #include "GameStates/State.h"
 #include "GameStates/MainMenuState.h"
 #include "../Events/EventQueue.h"
+#include "StateFactory.h"
 #include <memory>
 #include <SFML/Graphics/RenderWindow.hpp>
 
 class State;
 class StateMachine {
     std::shared_ptr<State> currentState;
-    sf::RenderWindow& window;
     EventQueue& eventQueue;
+    sf::RenderWindow& window;
 public:
-    enum stateName{
-        MainMenu,
-        NewGame
-    };
     StateMachine(sf::RenderWindow &window, EventQueue &queue);
     void render();
     void input();
     void pullState();
     void pushState(const std::shared_ptr<State>& state);
-    std::shared_ptr<State> createState(stateName name);
+    StateFactory stateFactory;
+
 };
 
 
