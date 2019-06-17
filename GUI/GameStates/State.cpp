@@ -39,7 +39,7 @@ void State::input() {
 //    {
 //        if(it->isMouseHover())
 //        {
-//            if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
+//            if(sf::Mouse::isButtonPressed(sf: :Mouse::Left))
 //                it->onClick(stateMachine);
 //        }
 //    }

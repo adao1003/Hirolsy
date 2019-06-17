@@ -18,6 +18,7 @@ class State {
 protected:
     std::shared_ptr<State> prevState{};
     std::vector<std::shared_ptr<GUIObject>> items;
+    std::shared_ptr<GUIObject> activeObject = nullptr;
     StateMachine& stateMachine;
     sf::RenderWindow& window;
     EventQueue& eventQueue;

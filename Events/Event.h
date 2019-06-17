@@ -11,7 +11,9 @@ class Event {
 public:
     enum Type {
         None,
-        Clicked
+        EndTurn,
+        NewGame,
+
     };
     Type type;
     Event(Type type);

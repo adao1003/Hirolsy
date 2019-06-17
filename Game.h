@@ -9,14 +9,13 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include "GUI/StateMachine.h"
 #include "Events/EventQueue.h"
-
+//class StateMachine;
 class Game {
     StateMachine stateMachine;
     sf::RenderWindow window;
     EventQueue eventQueue;
 public:
-    Game() : stateMachine(window, eventQueue) {}
-
+    Game();
     Game(unsigned int width, unsigned int height);
 };
 

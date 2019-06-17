@@ -6,7 +6,12 @@
 #define HIROLSY_MAP_H
 
 
+#include <vector>
+#include "GameObject.h"
+
 class Map {
+    std::vector<std::vector<GameObject>> map;
+
 };
 
 

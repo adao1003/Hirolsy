@@ -4,7 +4,8 @@
 
 #include "Game.h"
 
-Game::Game(unsigned int width, unsigned int height) : window(sf::VideoMode(height, width ), "Hirolsy"), stateMachine(window, eventQueue) {
+Game::Game(unsigned int width, unsigned int height) : window(sf::VideoMode(height, width ), "Hirolsy"), stateMachine(
+        window, eventQueue, *this) {
     window.setFramerateLimit(60);
     while(window.isOpen())
     {
@@ -14,3 +15,5 @@ Game::Game(unsigned int width, unsigned int height) : window(sf::VideoMode(heigh
         window.display();
     }
 }
+
+Game::Game() : stateMachine(window, eventQueue, *this) {}

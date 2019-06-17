@@ -7,9 +7,9 @@
 #include "StateFactory.h"
 
 
-StateMachine::StateMachine(sf::RenderWindow &window, EventQueue &queue)
+StateMachine::StateMachine(sf::RenderWindow &window, EventQueue &queue, Game &game)
         : window(window), eventQueue(queue),
-        stateFactory(window, *this, eventQueue){
+          stateFactory(window, *this, eventQueue), game(game) {
     currentState= stateFactory.createState(StateFactory::stateName::MainMenu);
 }
 

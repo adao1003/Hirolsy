@@ -7,11 +7,10 @@
 
 
 #include "Event.h"
-#include "../GUI/GUIObject/GUIObject.h"
 #include "../GUI/GUIObject/Button.h"
-
+#include "../GUI/GUIObject/GUIObject.h"
 class GUIEvent: public Event {
-    GUIObject& guiObject;
+     GUIObject& sender;
 public:
     GUIEvent(Type type, GUIObject &guiObject);
 };
