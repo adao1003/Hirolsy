@@ -21,11 +21,10 @@ protected:
     std::shared_ptr<GUIObject> activeObject = nullptr;
     StateMachine& stateMachine;
     sf::RenderWindow& window;
-    EventQueue& eventQueue;
 public:
-    explicit State(sf::RenderWindow &window, EventQueue &eventQueue, StateMachine &stateMachine,
+    explicit State(sf::RenderWindow &window, StateMachine &stateMachine,
                    const std::shared_ptr<State> &prevState = nullptr)
-            : prevState(prevState), window(window), eventQueue(eventQueue), stateMachine(stateMachine) {}
+            : prevState(prevState), window(window), stateMachine(stateMachine) {}
 
     const std::shared_ptr<State> &getPrevState() const;
 

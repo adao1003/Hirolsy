@@ -14,14 +14,6 @@ queue
 Event.h
 /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
 
-/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.cpp
-utility
--
-SFML/Window/Mouse.hpp
--
-GUIObject.h
-/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
-
 /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
 functional
 -
@@ -69,12 +61,22 @@ GameStates/State.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
 GameStates/MainMenuState.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
-../Events/EventQueue.h
-/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
 StateFactory.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.h
 memory
 -
 SFML/Graphics/RenderWindow.hpp
 -
+
+/home/adao1003/CLionProjects/Hirolsy/Game.cpp
+Game.h
+/home/adao1003/CLionProjects/Hirolsy/Game.h
+
+/home/adao1003/CLionProjects/Hirolsy/Game.h
+SFML/Graphics/RenderWindow.hpp
+-
+GUI/StateMachine.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
+Events/EventQueue.h
+/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
 

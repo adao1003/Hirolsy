@@ -11,7 +11,7 @@ class MainMenuState: public State {
     static void NewGameButtonFun(GUIObject& guiObject, StateMachine &stateM);
 public:
 
-    MainMenuState(sf::RenderWindow &window, EventQueue &eventQueue, StateMachine &stateMachine,
+    MainMenuState(sf::RenderWindow &window, StateMachine &stateMachine,
              const std::shared_ptr<State> &prevState = nullptr);
 
 };

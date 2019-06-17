@@ -111,6 +111,7 @@ CMakeFiles/Hirolsy.dir/Game.cpp.o: ../Game.h
 CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o: ../GameLogic/GameObject.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o: ../GameLogic/GameObject.h
 
+CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o: ../GameLogic/GameObject.h
 CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o: ../GameLogic/Map.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o: ../GameLogic/Map.h
 

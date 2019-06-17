@@ -16,11 +16,10 @@ class State;
 class Game;
 class StateMachine {
     std::shared_ptr<State> currentState;
-    EventQueue& eventQueue;
     sf::RenderWindow& window;
     Game& game;
 public:
-    StateMachine(sf::RenderWindow &window, EventQueue &queue, Game &game);
+    StateMachine(sf::RenderWindow &window, Game &game);
     void render();
     void input();
     void pullState();

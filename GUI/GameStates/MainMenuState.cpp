@@ -9,8 +9,8 @@
 #include "State.h"
 #include "NewGameState.h"
 
-MainMenuState::MainMenuState(sf::RenderWindow &window, EventQueue &eventQueue, StateMachine &stateMachine,
-                   const std::shared_ptr<State> &prevState) : State(window, eventQueue, stateMachine, prevState)
+MainMenuState::MainMenuState(sf::RenderWindow &window, StateMachine &stateMachine,
+                   const std::shared_ptr<State> &prevState) : State(window, stateMachine, prevState)
                    {
     items.emplace_back(std::make_shared<Button>(window, ResourcesContainer::getInstance().getTexture("NewGame.png"), sf::Vector2f(100,100), NewGameButtonFun));
                    }

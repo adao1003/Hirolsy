@@ -15,9 +15,8 @@
 class StateFactory {
     sf::RenderWindow& window;
     StateMachine& stateMachine;
-    EventQueue& eventQueue;
 public:
-    StateFactory(sf::RenderWindow &window, StateMachine &stateMachine, EventQueue &eventQueue);
+    StateFactory(sf::RenderWindow &window, StateMachine &stateMachine);
     enum stateName{
         MainMenu,
         NewGame

@@ -8,7 +8,7 @@
 
 #include "Event.h"
 #include "../GUI/GUIObject/Button.h"
-#include "../GUI/GUIObject/GUIObject.h"
+
 class GUIEvent: public Event {
      GUIObject& sender;
 public:
