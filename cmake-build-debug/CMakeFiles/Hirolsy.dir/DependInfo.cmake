@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adao1003/CLionProjects/Hirolsy/Game.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/Game.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o"
+  "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/Settings.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/Settings.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/main.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/main.cpp.o"
   )

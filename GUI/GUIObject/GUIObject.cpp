@@ -20,7 +20,3 @@ GUIObject::GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vect
     sprite.setPosition(vec.x, vec.y);
 }
 
-GUIObject::GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec): window(window), sprite(sprite) {
-    sprite.setPosition(vec.x, vec.y);
-}
-

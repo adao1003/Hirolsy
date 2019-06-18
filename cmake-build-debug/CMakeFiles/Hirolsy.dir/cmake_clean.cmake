@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o"
   "CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o"
+  "CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o"
   "Hirolsy.pdb"
   "Hirolsy"
 )

@@ -528,6 +528,33 @@ GameLogic/Map.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.s
 .PHONY : GameLogic/Map.cpp.s
 
+GameLogic/Player.o: GameLogic/Player.cpp.o
+
+.PHONY : GameLogic/Player.o
+
+# target to build an object file
+GameLogic/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o
+.PHONY : GameLogic/Player.cpp.o
+
+GameLogic/Player.i: GameLogic/Player.cpp.i
+
+.PHONY : GameLogic/Player.i
+
+# target to preprocess a source file
+GameLogic/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.i
+.PHONY : GameLogic/Player.cpp.i
+
+GameLogic/Player.s: GameLogic/Player.cpp.s
+
+.PHONY : GameLogic/Player.s
+
+# target to generate assembly for a file
+GameLogic/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.s
+.PHONY : GameLogic/Player.cpp.s
+
 Settings.o: Settings.cpp.o
 
 .PHONY : Settings.o
@@ -636,6 +663,9 @@ help:
 	@echo "... GameLogic/Map.o"
 	@echo "... GameLogic/Map.i"
 	@echo "... GameLogic/Map.s"
+	@echo "... GameLogic/Player.o"
+	@echo "... GameLogic/Player.i"
+	@echo "... GameLogic/Player.s"
 	@echo "... Settings.o"
 	@echo "... Settings.i"
 	@echo "... Settings.s"

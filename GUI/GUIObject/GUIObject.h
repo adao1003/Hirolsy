@@ -22,7 +22,6 @@ public:
     std::function<void(StateMachine&)> onClick ;
     void draw();
     bool isMouseHover();
-    GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec);
     GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec,
               std::function<void(GUIObject&, StateMachine &)> onClick);
 };
