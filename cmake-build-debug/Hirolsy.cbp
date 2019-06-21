@@ -114,6 +114,18 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
@@ -162,10 +174,40 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Game.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Grass.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Grass.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Mountains.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Mountains.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Road.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Road.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.cpp">
@@ -174,10 +216,40 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Settings.cpp">

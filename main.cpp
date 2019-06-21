@@ -7,5 +7,5 @@
 
 int main()
 {
-    Game game(800, 1024);
+    Game game(1080, 1920);
 }

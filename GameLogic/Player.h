@@ -6,8 +6,13 @@
 #define HIROLSY_PLAYER_H
 
 
-class Player {
+#include <memory>
+#include "Town.h"
+#include "Hero.h"
 
+class Player {
+    std::vector<std::shared_ptr<Town>> town;
+    std::vector<std::shared_ptr<Hero>> heroes;
 };
 
 

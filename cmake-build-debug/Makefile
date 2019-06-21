@@ -258,6 +258,60 @@ GUI/GUIObject/GUIObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.s
 .PHONY : GUI/GUIObject/GUIObject.cpp.s
 
+GUI/GUIObject/MapView.o: GUI/GUIObject/MapView.cpp.o
+
+.PHONY : GUI/GUIObject/MapView.o
+
+# target to build an object file
+GUI/GUIObject/MapView.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o
+.PHONY : GUI/GUIObject/MapView.cpp.o
+
+GUI/GUIObject/MapView.i: GUI/GUIObject/MapView.cpp.i
+
+.PHONY : GUI/GUIObject/MapView.i
+
+# target to preprocess a source file
+GUI/GUIObject/MapView.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.i
+.PHONY : GUI/GUIObject/MapView.cpp.i
+
+GUI/GUIObject/MapView.s: GUI/GUIObject/MapView.cpp.s
+
+.PHONY : GUI/GUIObject/MapView.s
+
+# target to generate assembly for a file
+GUI/GUIObject/MapView.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.s
+.PHONY : GUI/GUIObject/MapView.cpp.s
+
+GUI/GameStates/MainGameState.o: GUI/GameStates/MainGameState.cpp.o
+
+.PHONY : GUI/GameStates/MainGameState.o
+
+# target to build an object file
+GUI/GameStates/MainGameState.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.o
+.PHONY : GUI/GameStates/MainGameState.cpp.o
+
+GUI/GameStates/MainGameState.i: GUI/GameStates/MainGameState.cpp.i
+
+.PHONY : GUI/GameStates/MainGameState.i
+
+# target to preprocess a source file
+GUI/GameStates/MainGameState.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.i
+.PHONY : GUI/GameStates/MainGameState.cpp.i
+
+GUI/GameStates/MainGameState.s: GUI/GameStates/MainGameState.cpp.s
+
+.PHONY : GUI/GameStates/MainGameState.s
+
+# target to generate assembly for a file
+GUI/GameStates/MainGameState.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.s
+.PHONY : GUI/GameStates/MainGameState.cpp.s
+
 GUI/GameStates/MainMenuState.o: GUI/GameStates/MainMenuState.cpp.o
 
 .PHONY : GUI/GameStates/MainMenuState.o
@@ -474,6 +528,114 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+GameLogic/Fields/Field.o: GameLogic/Fields/Field.cpp.o
+
+.PHONY : GameLogic/Fields/Field.o
+
+# target to build an object file
+GameLogic/Fields/Field.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o
+.PHONY : GameLogic/Fields/Field.cpp.o
+
+GameLogic/Fields/Field.i: GameLogic/Fields/Field.cpp.i
+
+.PHONY : GameLogic/Fields/Field.i
+
+# target to preprocess a source file
+GameLogic/Fields/Field.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.i
+.PHONY : GameLogic/Fields/Field.cpp.i
+
+GameLogic/Fields/Field.s: GameLogic/Fields/Field.cpp.s
+
+.PHONY : GameLogic/Fields/Field.s
+
+# target to generate assembly for a file
+GameLogic/Fields/Field.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.s
+.PHONY : GameLogic/Fields/Field.cpp.s
+
+GameLogic/Fields/Grass.o: GameLogic/Fields/Grass.cpp.o
+
+.PHONY : GameLogic/Fields/Grass.o
+
+# target to build an object file
+GameLogic/Fields/Grass.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o
+.PHONY : GameLogic/Fields/Grass.cpp.o
+
+GameLogic/Fields/Grass.i: GameLogic/Fields/Grass.cpp.i
+
+.PHONY : GameLogic/Fields/Grass.i
+
+# target to preprocess a source file
+GameLogic/Fields/Grass.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.i
+.PHONY : GameLogic/Fields/Grass.cpp.i
+
+GameLogic/Fields/Grass.s: GameLogic/Fields/Grass.cpp.s
+
+.PHONY : GameLogic/Fields/Grass.s
+
+# target to generate assembly for a file
+GameLogic/Fields/Grass.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.s
+.PHONY : GameLogic/Fields/Grass.cpp.s
+
+GameLogic/Fields/Mountains.o: GameLogic/Fields/Mountains.cpp.o
+
+.PHONY : GameLogic/Fields/Mountains.o
+
+# target to build an object file
+GameLogic/Fields/Mountains.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o
+.PHONY : GameLogic/Fields/Mountains.cpp.o
+
+GameLogic/Fields/Mountains.i: GameLogic/Fields/Mountains.cpp.i
+
+.PHONY : GameLogic/Fields/Mountains.i
+
+# target to preprocess a source file
+GameLogic/Fields/Mountains.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.i
+.PHONY : GameLogic/Fields/Mountains.cpp.i
+
+GameLogic/Fields/Mountains.s: GameLogic/Fields/Mountains.cpp.s
+
+.PHONY : GameLogic/Fields/Mountains.s
+
+# target to generate assembly for a file
+GameLogic/Fields/Mountains.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.s
+.PHONY : GameLogic/Fields/Mountains.cpp.s
+
+GameLogic/Fields/Road.o: GameLogic/Fields/Road.cpp.o
+
+.PHONY : GameLogic/Fields/Road.o
+
+# target to build an object file
+GameLogic/Fields/Road.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o
+.PHONY : GameLogic/Fields/Road.cpp.o
+
+GameLogic/Fields/Road.i: GameLogic/Fields/Road.cpp.i
+
+.PHONY : GameLogic/Fields/Road.i
+
+# target to preprocess a source file
+GameLogic/Fields/Road.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.i
+.PHONY : GameLogic/Fields/Road.cpp.i
+
+GameLogic/Fields/Road.s: GameLogic/Fields/Road.cpp.s
+
+.PHONY : GameLogic/Fields/Road.s
+
+# target to generate assembly for a file
+GameLogic/Fields/Road.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.s
+.PHONY : GameLogic/Fields/Road.cpp.s
+
 GameLogic/GameObject.o: GameLogic/GameObject.cpp.o
 
 .PHONY : GameLogic/GameObject.o
@@ -500,6 +662,33 @@ GameLogic/GameObject.s: GameLogic/GameObject.cpp.s
 GameLogic/GameObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.s
 .PHONY : GameLogic/GameObject.cpp.s
+
+GameLogic/Hero.o: GameLogic/Hero.cpp.o
+
+.PHONY : GameLogic/Hero.o
+
+# target to build an object file
+GameLogic/Hero.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o
+.PHONY : GameLogic/Hero.cpp.o
+
+GameLogic/Hero.i: GameLogic/Hero.cpp.i
+
+.PHONY : GameLogic/Hero.i
+
+# target to preprocess a source file
+GameLogic/Hero.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.i
+.PHONY : GameLogic/Hero.cpp.i
+
+GameLogic/Hero.s: GameLogic/Hero.cpp.s
+
+.PHONY : GameLogic/Hero.s
+
+# target to generate assembly for a file
+GameLogic/Hero.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.s
+.PHONY : GameLogic/Hero.cpp.s
 
 GameLogic/Map.o: GameLogic/Map.cpp.o
 
@@ -528,6 +717,87 @@ GameLogic/Map.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.s
 .PHONY : GameLogic/Map.cpp.s
 
+GameLogic/MapLoader.o: GameLogic/MapLoader.cpp.o
+
+.PHONY : GameLogic/MapLoader.o
+
+# target to build an object file
+GameLogic/MapLoader.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o
+.PHONY : GameLogic/MapLoader.cpp.o
+
+GameLogic/MapLoader.i: GameLogic/MapLoader.cpp.i
+
+.PHONY : GameLogic/MapLoader.i
+
+# target to preprocess a source file
+GameLogic/MapLoader.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.i
+.PHONY : GameLogic/MapLoader.cpp.i
+
+GameLogic/MapLoader.s: GameLogic/MapLoader.cpp.s
+
+.PHONY : GameLogic/MapLoader.s
+
+# target to generate assembly for a file
+GameLogic/MapLoader.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.s
+.PHONY : GameLogic/MapLoader.cpp.s
+
+GameLogic/Mine.o: GameLogic/Mine.cpp.o
+
+.PHONY : GameLogic/Mine.o
+
+# target to build an object file
+GameLogic/Mine.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o
+.PHONY : GameLogic/Mine.cpp.o
+
+GameLogic/Mine.i: GameLogic/Mine.cpp.i
+
+.PHONY : GameLogic/Mine.i
+
+# target to preprocess a source file
+GameLogic/Mine.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.i
+.PHONY : GameLogic/Mine.cpp.i
+
+GameLogic/Mine.s: GameLogic/Mine.cpp.s
+
+.PHONY : GameLogic/Mine.s
+
+# target to generate assembly for a file
+GameLogic/Mine.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.s
+.PHONY : GameLogic/Mine.cpp.s
+
+GameLogic/MockMapLoader.o: GameLogic/MockMapLoader.cpp.o
+
+.PHONY : GameLogic/MockMapLoader.o
+
+# target to build an object file
+GameLogic/MockMapLoader.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o
+.PHONY : GameLogic/MockMapLoader.cpp.o
+
+GameLogic/MockMapLoader.i: GameLogic/MockMapLoader.cpp.i
+
+.PHONY : GameLogic/MockMapLoader.i
+
+# target to preprocess a source file
+GameLogic/MockMapLoader.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.i
+.PHONY : GameLogic/MockMapLoader.cpp.i
+
+GameLogic/MockMapLoader.s: GameLogic/MockMapLoader.cpp.s
+
+.PHONY : GameLogic/MockMapLoader.s
+
+# target to generate assembly for a file
+GameLogic/MockMapLoader.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.s
+.PHONY : GameLogic/MockMapLoader.cpp.s
+
 GameLogic/Player.o: GameLogic/Player.cpp.o
 
 .PHONY : GameLogic/Player.o
@@ -554,6 +824,60 @@ GameLogic/Player.s: GameLogic/Player.cpp.s
 GameLogic/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.s
 .PHONY : GameLogic/Player.cpp.s
+
+GameLogic/Town.o: GameLogic/Town.cpp.o
+
+.PHONY : GameLogic/Town.o
+
+# target to build an object file
+GameLogic/Town.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o
+.PHONY : GameLogic/Town.cpp.o
+
+GameLogic/Town.i: GameLogic/Town.cpp.i
+
+.PHONY : GameLogic/Town.i
+
+# target to preprocess a source file
+GameLogic/Town.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.i
+.PHONY : GameLogic/Town.cpp.i
+
+GameLogic/Town.s: GameLogic/Town.cpp.s
+
+.PHONY : GameLogic/Town.s
+
+# target to generate assembly for a file
+GameLogic/Town.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.s
+.PHONY : GameLogic/Town.cpp.s
+
+GameLogic/Unit.o: GameLogic/Unit.cpp.o
+
+.PHONY : GameLogic/Unit.o
+
+# target to build an object file
+GameLogic/Unit.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o
+.PHONY : GameLogic/Unit.cpp.o
+
+GameLogic/Unit.i: GameLogic/Unit.cpp.i
+
+.PHONY : GameLogic/Unit.i
+
+# target to preprocess a source file
+GameLogic/Unit.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.i
+.PHONY : GameLogic/Unit.cpp.i
+
+GameLogic/Unit.s: GameLogic/Unit.cpp.s
+
+.PHONY : GameLogic/Unit.s
+
+# target to generate assembly for a file
+GameLogic/Unit.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.s
+.PHONY : GameLogic/Unit.cpp.s
 
 Settings.o: Settings.cpp.o
 
@@ -633,6 +957,12 @@ help:
 	@echo "... GUI/GUIObject/GUIObject.o"
 	@echo "... GUI/GUIObject/GUIObject.i"
 	@echo "... GUI/GUIObject/GUIObject.s"
+	@echo "... GUI/GUIObject/MapView.o"
+	@echo "... GUI/GUIObject/MapView.i"
+	@echo "... GUI/GUIObject/MapView.s"
+	@echo "... GUI/GameStates/MainGameState.o"
+	@echo "... GUI/GameStates/MainGameState.i"
+	@echo "... GUI/GameStates/MainGameState.s"
 	@echo "... GUI/GameStates/MainMenuState.o"
 	@echo "... GUI/GameStates/MainMenuState.i"
 	@echo "... GUI/GameStates/MainMenuState.s"
@@ -657,15 +987,45 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameLogic/Fields/Field.o"
+	@echo "... GameLogic/Fields/Field.i"
+	@echo "... GameLogic/Fields/Field.s"
+	@echo "... GameLogic/Fields/Grass.o"
+	@echo "... GameLogic/Fields/Grass.i"
+	@echo "... GameLogic/Fields/Grass.s"
+	@echo "... GameLogic/Fields/Mountains.o"
+	@echo "... GameLogic/Fields/Mountains.i"
+	@echo "... GameLogic/Fields/Mountains.s"
+	@echo "... GameLogic/Fields/Road.o"
+	@echo "... GameLogic/Fields/Road.i"
+	@echo "... GameLogic/Fields/Road.s"
 	@echo "... GameLogic/GameObject.o"
 	@echo "... GameLogic/GameObject.i"
 	@echo "... GameLogic/GameObject.s"
+	@echo "... GameLogic/Hero.o"
+	@echo "... GameLogic/Hero.i"
+	@echo "... GameLogic/Hero.s"
 	@echo "... GameLogic/Map.o"
 	@echo "... GameLogic/Map.i"
 	@echo "... GameLogic/Map.s"
+	@echo "... GameLogic/MapLoader.o"
+	@echo "... GameLogic/MapLoader.i"
+	@echo "... GameLogic/MapLoader.s"
+	@echo "... GameLogic/Mine.o"
+	@echo "... GameLogic/Mine.i"
+	@echo "... GameLogic/Mine.s"
+	@echo "... GameLogic/MockMapLoader.o"
+	@echo "... GameLogic/MockMapLoader.i"
+	@echo "... GameLogic/MockMapLoader.s"
 	@echo "... GameLogic/Player.o"
 	@echo "... GameLogic/Player.i"
 	@echo "... GameLogic/Player.s"
+	@echo "... GameLogic/Town.o"
+	@echo "... GameLogic/Town.i"
+	@echo "... GameLogic/Town.s"
+	@echo "... GameLogic/Unit.o"
+	@echo "... GameLogic/Unit.i"
+	@echo "... GameLogic/Unit.s"
 	@echo "... Settings.o"
 	@echo "... Settings.i"
 	@echo "... Settings.s"

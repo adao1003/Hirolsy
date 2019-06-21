@@ -7,7 +7,8 @@
 
 
 class GameObject {
-
+    unsigned int x;
+    unsigned int y;
 };
 
 

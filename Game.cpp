@@ -17,3 +17,4 @@ Game::Game(unsigned int width, unsigned int height) : window(sf::VideoMode(heigh
 }
 
 Game::Game() : stateMachine(window, *this) {}
+
