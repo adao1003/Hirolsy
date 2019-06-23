@@ -30,3 +30,7 @@ void StateMachine::pushState(const std::shared_ptr<State>& state) {
     currentState=state;
 }
 
+Game &StateMachine::getGame() const {
+    return game;
+}
+

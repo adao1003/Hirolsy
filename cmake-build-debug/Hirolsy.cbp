@@ -216,28 +216,22 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.cpp">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.h">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.cpp">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.h">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.cpp">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.h">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.cpp">

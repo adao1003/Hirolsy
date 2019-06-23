@@ -16,6 +16,6 @@ MainMenuState::MainMenuState(sf::RenderWindow &window, StateMachine &stateMachin
                    }
 
 void MainMenuState::NewGameButtonFun(GUIObject& guiObject, StateMachine &stateM) {
-    stateM.pushState(stateM.stateFactory.createState(StateFactory::stateName::NewGame));
+    stateM.pushState(stateM.stateFactory.createState(StateFactory::stateName::MainGame));
 }
 

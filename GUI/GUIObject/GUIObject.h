@@ -17,13 +17,17 @@ class GUIObject {
 protected:
     sf::Sprite sprite;
     sf::RenderWindow& window;
+    static void empty(GUIObject& g, StateMachine& s) {}
+
 public:
     //static void test (StateMachine& e);
     std::function<void(StateMachine&)> onClick ;
-    void draw();
+    std::function<void(StateMachine&)> onRightClick = std::bind(GUIObject::empty, std::ref(*this), std::placeholders::_1);
+    virtual void draw();
     bool isMouseHover();
+    virtual void update() {};
     GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec,
-              std::function<void(GUIObject&, StateMachine &)> onClick);
+              std::function<void(GUIObject&, StateMachine &)> onClick = GUIObject::empty);
 };
 
 

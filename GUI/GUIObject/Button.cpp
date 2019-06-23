@@ -7,6 +7,6 @@
 Button::Button(sf::RenderWindow &window, sf::Texture &texture, const sf::Vector2f &vec,
                const std::function<void(GUIObject&, StateMachine &)> &onClick) : GUIObject(window, sf::Sprite(texture), vec, onClick)
                {
-    sprite.setPosition(vec.x, vec.y);
+    sprite.setPosition(vec);
                }
 

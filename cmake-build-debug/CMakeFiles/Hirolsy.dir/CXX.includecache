@@ -26,6 +26,32 @@ SFML/Graphics/RenderWindow.hpp
 iostream
 -
 
+/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.cpp
+MapView.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.h
+SFML/Graphics/Sprite.hpp
+-
+
+/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.h
+SFML/Graphics/RenderTexture.hpp
+-
+GUIObject.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
+../../GameLogic/Map.h
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h
+
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.cpp
+MainGameState.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.h
+../GUIObject/MapView.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.h
+../../Game.h
+/home/adao1003/CLionProjects/Hirolsy/Game.h
+
+/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.h
+../StateMachine.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
+
 /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
 ../StateMachine.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
@@ -42,6 +68,20 @@ memory
 ../StateMachine.h
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
 SFML/Graphics/RenderWindow.hpp
+-
+
+/home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+vector
+-
+SFML/Graphics/Texture.hpp
+-
+map
+-
+filesystem
+-
+SFML/Graphics/Font.hpp
+-
+unordered_map
 -
 
 /home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.h
@@ -80,6 +120,16 @@ GameLogic/Player.h
 GameLogic/Map.h
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h
 
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.h
+variant
+-
+memory
+-
+SFML/Graphics/Texture.hpp
+-
+../GameObject.h
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
+
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
 
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
@@ -93,8 +143,18 @@ Unit.h
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h
 vector
 -
+SFML/Graphics/RenderTexture.hpp
+-
 GameObject.h
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
+Fields/Field.h
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.h
+../GUI/ResourcesContainer.h
+/home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+PlayerQueue.h
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.h
+
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
 
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h
 memory
@@ -103,18 +163,18 @@ Town.h
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h
 Hero.h
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
+Mines/Mine.h
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
+
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.h
+vector
+-
+Player.h
+/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h
 
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h
 GameObject.h
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
 
 /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h
-
-/home/adao1003/CLionProjects/Hirolsy/main.cpp
-iostream
--
-SFML/Graphics.hpp
--
-Game.h
-/home/adao1003/CLionProjects/Hirolsy/Game.h
 

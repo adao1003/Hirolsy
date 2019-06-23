@@ -9,7 +9,8 @@
 #include "../StateMachine.h"
 
 class MainGameState: public State{
-    
+public:
+    MainGameState(sf::RenderWindow &window, StateMachine &stateMachine, const std::shared_ptr<State> &prevState);
 };
 
 

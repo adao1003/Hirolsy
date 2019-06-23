@@ -317,35 +317,9 @@ CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.cpp -o CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.s
 
-CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
-CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o: ../GameLogic/MapLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.cpp
-
-CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.cpp > CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.i
-
-CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/MapLoader.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.s
-
-CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
-CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o: ../GameLogic/MockMapLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.cpp
-
-CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.cpp > CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.i
-
-CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/MockMapLoader.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.s
-
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.i: cmake_force
@@ -358,7 +332,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.s: cmake_force
 
 CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o: ../GameLogic/Unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.i: cmake_force
@@ -371,7 +345,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.s: cmake_force
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o: ../GameLogic/Fields/Field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.i: cmake_force
@@ -384,7 +358,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.s: cmake_force
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o: ../GameLogic/Fields/Road.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Road.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.i: cmake_force
@@ -397,7 +371,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.s: cmake_force
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o: ../GameLogic/Fields/Grass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Grass.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.i: cmake_force
@@ -410,7 +384,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.s: cmake_force
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o: ../GameLogic/Fields/Mountains.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Mountains.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.i: cmake_force
@@ -423,7 +397,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.s: cmake_force
 
 CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
 CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o: ../GameLogic/Town.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.cpp
 
 CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.i: cmake_force
@@ -434,18 +408,31 @@ CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.s
 
-CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
-CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o: ../GameLogic/Mine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.cpp
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o: ../GameLogic/Mines/Mine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.cpp
 
-CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.cpp > CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.i
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.cpp > CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.i
 
-CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mine.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.s
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.s
+
+CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
+CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/PlayerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp
+
+CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp > CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.i
+
+CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s
 
 # Object files for target Hirolsy
 Hirolsy_OBJECTS = \
@@ -469,8 +456,6 @@ Hirolsy_OBJECTS = \
 "CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.o" \
-"CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o" \
-"CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o" \
@@ -478,7 +463,8 @@ Hirolsy_OBJECTS = \
 "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o" \
-"CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o"
+"CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o" \
+"CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
 
 # External object files for target Hirolsy
 Hirolsy_EXTERNAL_OBJECTS =
@@ -503,8 +489,6 @@ Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.o
-Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o
-Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o
@@ -512,14 +496,15 @@ Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Fields/Road.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o
-Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o
+Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o
+Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/build.make
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Hirolsy: CMakeFiles/Hirolsy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Hirolsy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Hirolsy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hirolsy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

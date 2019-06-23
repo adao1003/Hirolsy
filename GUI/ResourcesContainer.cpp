@@ -12,6 +12,7 @@ ResourcesContainer::ResourcesContainer() {
         if (temp.loadFromFile(p.path().string()))
             textures.insert(std::pair<std::string, sf::Texture>(p.path().filename().string(), std::move(temp)));
     }
+    std::cout << textures.bucket_count() << std::endl;
 }
 
 sf::Texture &ResourcesContainer::getTexture(std::string string) {
@@ -21,7 +22,7 @@ sf::Texture &ResourcesContainer::getTexture(std::string string) {
     }
     catch (std::out_of_range& e )
     {
-        std::cerr << "Texture not found: " << string << std::endl;
+        std::clog << "Texture not found: " << string << std::endl;
         return empty;
     }
 }

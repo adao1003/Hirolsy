@@ -9,10 +9,13 @@
 #include <memory>
 #include "Town.h"
 #include "Hero.h"
+#include "Mines/Mine.h"
 
 class Player {
+    std::string name;
     std::vector<std::shared_ptr<Town>> town;
     std::vector<std::shared_ptr<Hero>> heroes;
+    std::vector<std::shared_ptr<Mine>> mines;
 };
 
 

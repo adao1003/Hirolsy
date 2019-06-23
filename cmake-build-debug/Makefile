@@ -717,86 +717,32 @@ GameLogic/Map.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.s
 .PHONY : GameLogic/Map.cpp.s
 
-GameLogic/MapLoader.o: GameLogic/MapLoader.cpp.o
+GameLogic/Mines/Mine.o: GameLogic/Mines/Mine.cpp.o
 
-.PHONY : GameLogic/MapLoader.o
-
-# target to build an object file
-GameLogic/MapLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o
-.PHONY : GameLogic/MapLoader.cpp.o
-
-GameLogic/MapLoader.i: GameLogic/MapLoader.cpp.i
-
-.PHONY : GameLogic/MapLoader.i
-
-# target to preprocess a source file
-GameLogic/MapLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.i
-.PHONY : GameLogic/MapLoader.cpp.i
-
-GameLogic/MapLoader.s: GameLogic/MapLoader.cpp.s
-
-.PHONY : GameLogic/MapLoader.s
-
-# target to generate assembly for a file
-GameLogic/MapLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.s
-.PHONY : GameLogic/MapLoader.cpp.s
-
-GameLogic/Mine.o: GameLogic/Mine.cpp.o
-
-.PHONY : GameLogic/Mine.o
+.PHONY : GameLogic/Mines/Mine.o
 
 # target to build an object file
-GameLogic/Mine.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o
-.PHONY : GameLogic/Mine.cpp.o
+GameLogic/Mines/Mine.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o
+.PHONY : GameLogic/Mines/Mine.cpp.o
 
-GameLogic/Mine.i: GameLogic/Mine.cpp.i
+GameLogic/Mines/Mine.i: GameLogic/Mines/Mine.cpp.i
 
-.PHONY : GameLogic/Mine.i
-
-# target to preprocess a source file
-GameLogic/Mine.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.i
-.PHONY : GameLogic/Mine.cpp.i
-
-GameLogic/Mine.s: GameLogic/Mine.cpp.s
-
-.PHONY : GameLogic/Mine.s
-
-# target to generate assembly for a file
-GameLogic/Mine.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.s
-.PHONY : GameLogic/Mine.cpp.s
-
-GameLogic/MockMapLoader.o: GameLogic/MockMapLoader.cpp.o
-
-.PHONY : GameLogic/MockMapLoader.o
-
-# target to build an object file
-GameLogic/MockMapLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o
-.PHONY : GameLogic/MockMapLoader.cpp.o
-
-GameLogic/MockMapLoader.i: GameLogic/MockMapLoader.cpp.i
-
-.PHONY : GameLogic/MockMapLoader.i
+.PHONY : GameLogic/Mines/Mine.i
 
 # target to preprocess a source file
-GameLogic/MockMapLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.i
-.PHONY : GameLogic/MockMapLoader.cpp.i
+GameLogic/Mines/Mine.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.i
+.PHONY : GameLogic/Mines/Mine.cpp.i
 
-GameLogic/MockMapLoader.s: GameLogic/MockMapLoader.cpp.s
+GameLogic/Mines/Mine.s: GameLogic/Mines/Mine.cpp.s
 
-.PHONY : GameLogic/MockMapLoader.s
+.PHONY : GameLogic/Mines/Mine.s
 
 # target to generate assembly for a file
-GameLogic/MockMapLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.s
-.PHONY : GameLogic/MockMapLoader.cpp.s
+GameLogic/Mines/Mine.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.s
+.PHONY : GameLogic/Mines/Mine.cpp.s
 
 GameLogic/Player.o: GameLogic/Player.cpp.o
 
@@ -824,6 +770,33 @@ GameLogic/Player.s: GameLogic/Player.cpp.s
 GameLogic/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.s
 .PHONY : GameLogic/Player.cpp.s
+
+GameLogic/PlayerQueue.o: GameLogic/PlayerQueue.cpp.o
+
+.PHONY : GameLogic/PlayerQueue.o
+
+# target to build an object file
+GameLogic/PlayerQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o
+.PHONY : GameLogic/PlayerQueue.cpp.o
+
+GameLogic/PlayerQueue.i: GameLogic/PlayerQueue.cpp.i
+
+.PHONY : GameLogic/PlayerQueue.i
+
+# target to preprocess a source file
+GameLogic/PlayerQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.i
+.PHONY : GameLogic/PlayerQueue.cpp.i
+
+GameLogic/PlayerQueue.s: GameLogic/PlayerQueue.cpp.s
+
+.PHONY : GameLogic/PlayerQueue.s
+
+# target to generate assembly for a file
+GameLogic/PlayerQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s
+.PHONY : GameLogic/PlayerQueue.cpp.s
 
 GameLogic/Town.o: GameLogic/Town.cpp.o
 
@@ -1008,18 +981,15 @@ help:
 	@echo "... GameLogic/Map.o"
 	@echo "... GameLogic/Map.i"
 	@echo "... GameLogic/Map.s"
-	@echo "... GameLogic/MapLoader.o"
-	@echo "... GameLogic/MapLoader.i"
-	@echo "... GameLogic/MapLoader.s"
-	@echo "... GameLogic/Mine.o"
-	@echo "... GameLogic/Mine.i"
-	@echo "... GameLogic/Mine.s"
-	@echo "... GameLogic/MockMapLoader.o"
-	@echo "... GameLogic/MockMapLoader.i"
-	@echo "... GameLogic/MockMapLoader.s"
+	@echo "... GameLogic/Mines/Mine.o"
+	@echo "... GameLogic/Mines/Mine.i"
+	@echo "... GameLogic/Mines/Mine.s"
 	@echo "... GameLogic/Player.o"
 	@echo "... GameLogic/Player.i"
 	@echo "... GameLogic/Player.s"
+	@echo "... GameLogic/PlayerQueue.o"
+	@echo "... GameLogic/PlayerQueue.i"
+	@echo "... GameLogic/PlayerQueue.s"
 	@echo "... GameLogic/Town.o"
 	@echo "... GameLogic/Town.i"
 	@echo "... GameLogic/Town.s"

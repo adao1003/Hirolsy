@@ -9,7 +9,8 @@
 #include "Field.h"
 
 class Grass: public Field {
-
+public:
+    Grass();
 };
 
 

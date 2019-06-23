@@ -3,3 +3,10 @@
 //
 
 #include "Field.h"
+
+Field::Field(double cost, const sf::Vector2i &offset) : cost(cost),
+                                                        offset(offset) {}
+
+const sf::Vector2i &Field::getOffset() const {
+    return offset;
+}

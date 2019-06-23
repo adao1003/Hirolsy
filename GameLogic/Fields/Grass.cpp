@@ -3,3 +3,5 @@
 //
 
 #include "Grass.h"
+
+Grass::Grass() : Field(2, sf::Vector2i(64, 0)) {}

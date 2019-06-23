@@ -6,10 +6,18 @@
 #define HIROLSY_FIELD_H
 
 
+#include <variant>
+#include <memory>
+#include <SFML/Graphics/Texture.hpp>
 #include "../GameObject.h"
 
 class Field: public GameObject {
-    double cost;
+    std::variant<double, std::shared_ptr<GameObject>> cost;
+    sf::Vector2i offset;
+public:
+    Field(double cost, const sf::Vector2i &offset);
+
+    const sf::Vector2i &getOffset() const;
 };
 
 

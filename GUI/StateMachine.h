@@ -20,6 +20,7 @@ class StateMachine {
     Game& game;
 public:
     StateMachine(sf::RenderWindow &window, Game &game);
+    Game &getGame() const;
     void render();
     void input();
     void pullState();

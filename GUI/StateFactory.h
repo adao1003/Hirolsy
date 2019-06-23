@@ -19,7 +19,8 @@ public:
     StateFactory(sf::RenderWindow &window, StateMachine &stateMachine);
     enum stateName{
         MainMenu,
-        NewGame
+        NewGame,
+        MainGame
     };
     std::shared_ptr<State> createState(stateName name, std::shared_ptr<State> prevState = nullptr);
 };

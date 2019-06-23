@@ -17,6 +17,6 @@ bool GUIObject::isMouseHover() {
 
 GUIObject::GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec,
                      std::function<void(GUIObject&, StateMachine &)> onClick) : window(window), sprite(sprite), onClick(std::bind(onClick, std::ref(*this), std::placeholders::_1)) {
-    sprite.setPosition(vec.x, vec.y);
+    sprite.setPosition(vec);
 }
 

@@ -19,8 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o"
   "CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o"
   "CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.o"
-  "CMakeFiles/Hirolsy.dir/GameLogic/MapLoader.cpp.o"
-  "CMakeFiles/Hirolsy.dir/GameLogic/MockMapLoader.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Field.cpp.o"
@@ -28,7 +26,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Grass.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o"
-  "CMakeFiles/Hirolsy.dir/GameLogic/Mine.cpp.o"
+  "CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o"
+  "CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
   "Hirolsy.pdb"
   "Hirolsy"
 )

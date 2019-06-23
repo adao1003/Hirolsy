@@ -11,10 +11,11 @@
 #include <map>
 #include <filesystem>
 #include <SFML/Graphics/Font.hpp>
+#include <unordered_map>
 
 class ResourcesContainer {
-    std::map<std::string, sf::Texture> textures;
-    std::map<std::string, sf::Font> fonts;
+    std::unordered_map<std::string, sf::Texture> textures;
+    std::unordered_map<std::string, sf::Font> fonts;
     ResourcesContainer();
     ~ResourcesContainer() = default;
     sf::Texture empty;

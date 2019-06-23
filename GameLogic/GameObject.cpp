@@ -3,3 +3,7 @@
 //
 
 #include "GameObject.h"
+
+GameObject::GameObject(unsigned int x, unsigned int y) : x(x), y(y) {}
+
+GameObject::GameObject() {}
