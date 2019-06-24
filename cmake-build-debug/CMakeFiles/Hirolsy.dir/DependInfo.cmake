@@ -27,6 +27,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o"
+  "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o"
+  "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o"

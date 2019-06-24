@@ -10,6 +10,9 @@
 
 class Mountains: public Field {
 public:
+    void resetCost() override;
+
+public:
     Mountains();
 };
 

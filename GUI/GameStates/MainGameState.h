@@ -7,8 +7,10 @@
 
 
 #include "../StateMachine.h"
-
+#include "../../Game.h"
+class Map;
 class MainGameState: public State{
+    Map& map = const_cast<Map&>(stateMachine.getGame().getMap());
 public:
     MainGameState(sf::RenderWindow &window, StateMachine &stateMachine, const std::shared_ptr<State> &prevState);
 };

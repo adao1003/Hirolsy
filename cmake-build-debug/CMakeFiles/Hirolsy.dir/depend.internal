@@ -129,9 +129,20 @@ CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.cpp
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateFactory.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/StateMachine.h
+ /home/adao1003/CLionProjects/Hirolsy/Game.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h
 CMakeFiles/Hirolsy.dir/GUI/StateMachine.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
@@ -184,6 +195,8 @@ CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.cpp
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.cpp
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h
@@ -198,14 +211,30 @@ CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.cpp
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Map.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h
 CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.cpp
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.cpp
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.h
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.h
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
@@ -214,6 +243,7 @@ CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h

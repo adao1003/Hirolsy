@@ -20,3 +20,7 @@ GUIObject::GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vect
     sprite.setPosition(vec);
 }
 
+void GUIObject::setOnRightClick(std::function<void(GUIObject &, StateMachine &)> p) {
+    onRightClick = std::bind(p, std::ref(*this), std::placeholders::_1);
+}
+

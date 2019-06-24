@@ -11,13 +11,16 @@
 #include <SFML/Graphics/Texture.hpp>
 #include "../GameObject.h"
 
-class Field: public GameObject {
+class Field {
+protected:
     std::variant<double, std::shared_ptr<GameObject>> cost;
     sf::Vector2i offset;
 public:
     Field(double cost, const sf::Vector2i &offset);
-
+    double getCost();
     const sf::Vector2i &getOffset() const;
+    virtual void resetCost() = 0;
+    void addBuilding(const std::shared_ptr<GameObject>& ptr);
 };
 
 

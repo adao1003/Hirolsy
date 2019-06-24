@@ -28,6 +28,7 @@ public:
     virtual void update() {};
     GUIObject(sf::RenderWindow &window, sf::Sprite sprite, const sf::Vector2f &vec,
               std::function<void(GUIObject&, StateMachine &)> onClick = GUIObject::empty);
+    void setOnRightClick(std::function<void(GUIObject &, StateMachine &)> p);
 };
 
 

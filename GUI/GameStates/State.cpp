@@ -35,14 +35,14 @@ void State::input() {
 
         }
     }
-//    for(auto& it:items)
-//    {
-//        if(it->isMouseHover())
-//        {
-//            if(sf::Mouse::isButtonPressed(sf: :Mouse::Left))
-//                it->onClick(stateMachine);
-//        }
-//    }
+    for(auto& it:items)
+    {
+        if(it->isMouseHover())
+        {
+           if(sf::Mouse::isButtonPressed(sf::Mouse::Right))
+               it->onRightClick(stateMachine);
+        }
+    }
 }
 
 void State::setPrevState(const std::shared_ptr<State> &prevState) {

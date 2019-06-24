@@ -11,6 +11,8 @@
 class Road : public Field {
 public:
     Road();
+
+    void resetCost() override;
 };
 
 

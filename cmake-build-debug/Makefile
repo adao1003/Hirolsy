@@ -744,6 +744,60 @@ GameLogic/Mines/Mine.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.s
 .PHONY : GameLogic/Mines/Mine.cpp.s
 
+GameLogic/Mines/Quarry.o: GameLogic/Mines/Quarry.cpp.o
+
+.PHONY : GameLogic/Mines/Quarry.o
+
+# target to build an object file
+GameLogic/Mines/Quarry.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o
+.PHONY : GameLogic/Mines/Quarry.cpp.o
+
+GameLogic/Mines/Quarry.i: GameLogic/Mines/Quarry.cpp.i
+
+.PHONY : GameLogic/Mines/Quarry.i
+
+# target to preprocess a source file
+GameLogic/Mines/Quarry.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.i
+.PHONY : GameLogic/Mines/Quarry.cpp.i
+
+GameLogic/Mines/Quarry.s: GameLogic/Mines/Quarry.cpp.s
+
+.PHONY : GameLogic/Mines/Quarry.s
+
+# target to generate assembly for a file
+GameLogic/Mines/Quarry.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.s
+.PHONY : GameLogic/Mines/Quarry.cpp.s
+
+GameLogic/Mines/Sawmill.o: GameLogic/Mines/Sawmill.cpp.o
+
+.PHONY : GameLogic/Mines/Sawmill.o
+
+# target to build an object file
+GameLogic/Mines/Sawmill.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o
+.PHONY : GameLogic/Mines/Sawmill.cpp.o
+
+GameLogic/Mines/Sawmill.i: GameLogic/Mines/Sawmill.cpp.i
+
+.PHONY : GameLogic/Mines/Sawmill.i
+
+# target to preprocess a source file
+GameLogic/Mines/Sawmill.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.i
+.PHONY : GameLogic/Mines/Sawmill.cpp.i
+
+GameLogic/Mines/Sawmill.s: GameLogic/Mines/Sawmill.cpp.s
+
+.PHONY : GameLogic/Mines/Sawmill.s
+
+# target to generate assembly for a file
+GameLogic/Mines/Sawmill.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.s
+.PHONY : GameLogic/Mines/Sawmill.cpp.s
+
 GameLogic/Player.o: GameLogic/Player.cpp.o
 
 .PHONY : GameLogic/Player.o
@@ -984,6 +1038,12 @@ help:
 	@echo "... GameLogic/Mines/Mine.o"
 	@echo "... GameLogic/Mines/Mine.i"
 	@echo "... GameLogic/Mines/Mine.s"
+	@echo "... GameLogic/Mines/Quarry.o"
+	@echo "... GameLogic/Mines/Quarry.i"
+	@echo "... GameLogic/Mines/Quarry.s"
+	@echo "... GameLogic/Mines/Sawmill.o"
+	@echo "... GameLogic/Mines/Sawmill.i"
+	@echo "... GameLogic/Mines/Sawmill.s"
 	@echo "... GameLogic/Player.o"
 	@echo "... GameLogic/Player.i"
 	@echo "... GameLogic/Player.s"

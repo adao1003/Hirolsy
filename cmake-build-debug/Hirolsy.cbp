@@ -222,6 +222,18 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>

@@ -7,6 +7,7 @@
 #include "Fields/Grass.h"
 #include "Fields/Mountains.h"
 #include "Fields/Road.h"
+#include "Mines/Quarry.h"
 
 void Map::generatorTileMap() {
     tileMap->create(fieldLayer[0].size()*64, fieldLayer.size()*64);
@@ -36,9 +37,19 @@ Map Map::load() {
     map.fieldLayer[4][5] =std::make_unique<Road>();
     map.fieldLayer[4][6] =std::make_unique<Road>();
     map.fieldLayer[4][7] =std::make_unique<Road>();
+    map.addBuilding(std::make_shared<Quarry>(5,5));
     return map;
 }
 
 const std::unique_ptr<sf::RenderTexture> &Map::getTileMap() const {
     return tileMap;
+}
+
+void Map::addBuilding(const std::shared_ptr<GameObject> &obj) {
+    fieldLayer[obj->getX()][obj->getY()]->addBuilding(obj);
+    buildings.push_back(obj);
+}
+
+const std::vector<std::shared_ptr<GameObject>> &Map::getBuildings() const {
+    return buildings;
 }

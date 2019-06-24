@@ -9,6 +9,8 @@
 #include "GameObject.h"
 class Player;
 class Town: public GameObject {
+    Town() : GameObject(0, 0, sf::Texture()) {}
+
     Player* owner = nullptr;
 };
 

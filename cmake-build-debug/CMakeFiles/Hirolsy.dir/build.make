@@ -434,6 +434,32 @@ CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.s
 
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o: ../GameLogic/Mines/Sawmill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp
+
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp > CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.i
+
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.s
+
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o: CMakeFiles/Hirolsy.dir/flags.make
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o: ../GameLogic/Mines/Quarry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o -c /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.cpp
+
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.cpp > CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.i
+
+CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Quarry.cpp -o CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.s
+
 # Object files for target Hirolsy
 Hirolsy_OBJECTS = \
 "CMakeFiles/Hirolsy.dir/main.cpp.o" \
@@ -464,7 +490,9 @@ Hirolsy_OBJECTS = \
 "CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o" \
 "CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o" \
-"CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
+"CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o" \
+"CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o" \
+"CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o"
 
 # External object files for target Hirolsy
 Hirolsy_EXTERNAL_OBJECTS =
@@ -498,13 +526,15 @@ Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Fields/Mountains.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Mines/Mine.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o
+Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o
+Hirolsy: CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o
 Hirolsy: CMakeFiles/Hirolsy.dir/build.make
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Hirolsy: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Hirolsy: CMakeFiles/Hirolsy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Hirolsy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable Hirolsy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hirolsy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

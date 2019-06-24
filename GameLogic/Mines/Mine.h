@@ -6,8 +6,12 @@
 #define HIROLSY_MINE_H
 
 
-class Mine {
+#include "../GameObject.h"
+
+class Mine: public GameObject {
     Mine* owner = nullptr;
+public:
+    Mine(unsigned int x, unsigned int y, const sf::Texture& tex);
 };
 
 

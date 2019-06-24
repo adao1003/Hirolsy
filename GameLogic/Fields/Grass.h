@@ -10,6 +10,9 @@
 
 class Grass: public Field {
 public:
+    void resetCost() override;
+
+public:
     Grass();
 };
 
