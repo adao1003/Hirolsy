@@ -3,3 +3,12 @@
 //
 
 #include "Hero.h"
+
+bool Hero::move(Field &field) {
+    if(currentMovementPoints-field.getCost()<0)
+        return false;
+    else{
+        currentMovementPoints-=field.getCost();
+        return true;
+    }
+}

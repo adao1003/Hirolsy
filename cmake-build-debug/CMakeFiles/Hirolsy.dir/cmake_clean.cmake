@@ -30,6 +30,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o"
+  "CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o"
   "Hirolsy.pdb"
   "Hirolsy"
 )

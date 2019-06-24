@@ -114,6 +114,12 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/HeroesList.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/HeroesList.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>

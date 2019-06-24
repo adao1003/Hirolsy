@@ -26,3 +26,14 @@ double Field::getCost() {
 void Field::addBuilding(const std::shared_ptr<GameObject> &ptr) {
     cost = ptr;
 }
+
+std::optional<std::shared_ptr<GameObject>> Field::getVisitedObject() {
+    std::shared_ptr<GameObject> temp;
+    try{
+        return std::get<std::shared_ptr<GameObject>>(cost);
+    }
+    catch (std::bad_variant_access&)
+    {
+        return {};
+    }
+}

@@ -10,6 +10,7 @@
 #include <memory>
 #include <SFML/Graphics/Texture.hpp>
 #include "../GameObject.h"
+#include <optional>
 
 class Field {
 protected:
@@ -21,6 +22,7 @@ public:
     const sf::Vector2i &getOffset() const;
     virtual void resetCost() = 0;
     void addBuilding(const std::shared_ptr<GameObject>& ptr);
+    std::optional<std::shared_ptr<GameObject>> getVisitedObject();
 };
 
 

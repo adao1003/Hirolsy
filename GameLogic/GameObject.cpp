@@ -23,3 +23,13 @@ unsigned int GameObject::getY() const {
 const sf::Sprite &GameObject::getSprite() const {
     return sprite;
 }
+
+void GameObject::setX(unsigned int x) {
+    GameObject::x = x;
+    sprite.setPosition(x*64, y*64);
+}
+
+void GameObject::setY(unsigned int y) {
+    GameObject::y = y;
+    sprite.setPosition(x*64, y*64);
+}

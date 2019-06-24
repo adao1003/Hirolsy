@@ -11,6 +11,8 @@
 #include "Unit.h"
 #include "GameObject.h"
 #include "../GUI/ResourcesContainer.h"
+#include "Player.h"
+#include "Fields/Field.h"
 
 class Player;
 class Hero: public GameObject {
@@ -20,7 +22,13 @@ class Hero: public GameObject {
     std::vector<std::shared_ptr<Unit>> units;
 public:
     Hero(unsigned int x, unsigned int y, Player *owner) : GameObject(x, y, ResourcesContainer::getInstance().getTexture("hero.png")),
-                                                          owner(owner) {}
+                                                          owner(owner) {
+    }
+
+    Player *getOwner() const {
+        return owner;
+    }
+    bool move(Field &field);
 };
 
 

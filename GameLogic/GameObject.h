@@ -21,9 +21,13 @@ public:
     GameObject();
     GameObject(unsigned int x, unsigned int y);
     GameObject(unsigned int x, unsigned int y, const sf::Texture &texture);
-
+    virtual void temp() {}; // Dla polimorfizmu ;)
     unsigned int getX() const;
     unsigned int getY() const;
+
+    void setX(unsigned int x);
+
+    void setY(unsigned int y);
 };
 
 

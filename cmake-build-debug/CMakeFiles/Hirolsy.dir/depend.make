@@ -38,6 +38,16 @@ CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/GameStates/State.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/StateFactory.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o: ../GUI/StateMachine.h
 
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../Events/Event.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../Events/EventQueue.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/GUIObject/GUIObject.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/GUIObject/HeroesList.cpp
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/GUIObject/HeroesList.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/GameStates/MainMenuState.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/GameStates/State.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/StateFactory.h
+CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o: ../GUI/StateMachine.h
+
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o: ../Events/Event.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o: ../Events/EventQueue.h
 CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o: ../GUI/GUIObject/GUIObject.h
@@ -195,9 +205,13 @@ CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o: ../GameLogic/GameObject.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o: ../GameLogic/GameObject.h
 
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GUI/ResourcesContainer.h
+CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Fields/Field.h
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/GameObject.h
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Hero.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Hero.h
+CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Mines/Mine.h
+CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Player.h
+CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Town.h
 CMakeFiles/Hirolsy.dir/GameLogic/Hero.cpp.o: ../GameLogic/Unit.h
 
 CMakeFiles/Hirolsy.dir/GameLogic/Map.cpp.o: ../GUI/ResourcesContainer.h
@@ -233,24 +247,18 @@ CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o: ../GameLogic/Mines/Mine.h
 CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o: ../GameLogic/Mines/Sawmill.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o: ../GameLogic/Mines/Sawmill.h
 
-CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GUI/ResourcesContainer.h
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/GameObject.h
-CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/Hero.h
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/Mines/Mine.h
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/Player.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/Player.h
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/Town.h
-CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o: ../GameLogic/Unit.h
 
-CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GUI/ResourcesContainer.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/GameObject.h
-CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/Hero.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/Mines/Mine.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/Player.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/PlayerQueue.cpp
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/PlayerQueue.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/Town.h
-CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o: ../GameLogic/Unit.h
 
 CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o: ../GameLogic/GameObject.h
 CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o: ../GameLogic/Town.cpp

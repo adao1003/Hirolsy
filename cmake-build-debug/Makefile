@@ -258,6 +258,33 @@ GUI/GUIObject/GUIObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.s
 .PHONY : GUI/GUIObject/GUIObject.cpp.s
 
+GUI/GUIObject/HeroesList.o: GUI/GUIObject/HeroesList.cpp.o
+
+.PHONY : GUI/GUIObject/HeroesList.o
+
+# target to build an object file
+GUI/GUIObject/HeroesList.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o
+.PHONY : GUI/GUIObject/HeroesList.cpp.o
+
+GUI/GUIObject/HeroesList.i: GUI/GUIObject/HeroesList.cpp.i
+
+.PHONY : GUI/GUIObject/HeroesList.i
+
+# target to preprocess a source file
+GUI/GUIObject/HeroesList.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.i
+.PHONY : GUI/GUIObject/HeroesList.cpp.i
+
+GUI/GUIObject/HeroesList.s: GUI/GUIObject/HeroesList.cpp.s
+
+.PHONY : GUI/GUIObject/HeroesList.s
+
+# target to generate assembly for a file
+GUI/GUIObject/HeroesList.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.s
+.PHONY : GUI/GUIObject/HeroesList.cpp.s
+
 GUI/GUIObject/MapView.o: GUI/GUIObject/MapView.cpp.o
 
 .PHONY : GUI/GUIObject/MapView.o
@@ -984,6 +1011,9 @@ help:
 	@echo "... GUI/GUIObject/GUIObject.o"
 	@echo "... GUI/GUIObject/GUIObject.i"
 	@echo "... GUI/GUIObject/GUIObject.s"
+	@echo "... GUI/GUIObject/HeroesList.o"
+	@echo "... GUI/GUIObject/HeroesList.i"
+	@echo "... GUI/GUIObject/HeroesList.s"
 	@echo "... GUI/GUIObject/MapView.o"
 	@echo "... GUI/GUIObject/MapView.i"
 	@echo "... GUI/GUIObject/MapView.s"

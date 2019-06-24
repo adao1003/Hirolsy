@@ -14,5 +14,6 @@ const std::shared_ptr<Player> &PlayerQueue::getCurrentPlayer() const {
 }
 
 void PlayerQueue::addPlayer(const std::shared_ptr<Player> &player) {
-    queue.emplace_back(player);
+    queue.push_back(player);
+        currentPlayer = queue.begin();
 }

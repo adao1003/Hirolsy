@@ -24,3 +24,7 @@ void GUIObject::setOnRightClick(std::function<void(GUIObject &, StateMachine &)>
     onRightClick = std::bind(p, std::ref(*this), std::placeholders::_1);
 }
 
+sf::RenderWindow &GUIObject::getWindow() const {
+    return window;
+}
+

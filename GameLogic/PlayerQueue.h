@@ -11,7 +11,7 @@
 
 class PlayerQueue {
     std::vector<std::shared_ptr<Player>> queue;
-    std::vector<std::shared_ptr<Player>>::iterator currentPlayer = queue.begin();
+    std::vector<std::shared_ptr<Player>>::iterator currentPlayer;
 public:
     void nextPlayer();
     void addPlayer(const std::shared_ptr<Player> &player);

@@ -38,6 +38,12 @@ Map Map::load() {
     map.fieldLayer[4][6] =std::make_unique<Road>();
     map.fieldLayer[4][7] =std::make_unique<Road>();
     map.addBuilding(std::make_shared<Quarry>(5,5));
+    auto player0 = std::make_shared<Player>("Player0");
+    auto player1 = std::make_shared<Player>("Player1");
+    map.playerQueue.addPlayer(player0);
+    map.playerQueue.addPlayer(player1);
+    map.addHero(std::make_shared<Hero>(6, 6, player0.get()));
+    map.addHero(std::make_shared<Hero>(8, 8, player1.get()));
     return map;
 }
 
@@ -52,4 +58,48 @@ void Map::addBuilding(const std::shared_ptr<GameObject> &obj) {
 
 const std::vector<std::shared_ptr<GameObject>> &Map::getBuildings() const {
     return buildings;
+}
+
+void Map::select(unsigned int x, unsigned int y) {
+    selection = sf::Vector2i(x,y);
+    auto t = currentPlayer();
+    if(selectedHero)
+        moveHero();
+    if(fieldLayer[x][y]->getVisitedObject())
+        if(auto temp = std::dynamic_pointer_cast<Hero>((*fieldLayer[x][y]->getVisitedObject())))
+            if(temp->getOwner()==currentPlayer())
+                selectedHero=temp;
+}
+
+void Map::addHero(const std::shared_ptr<Hero> &obj) {
+    fieldLayer[obj->getX()][obj->getY()]->addBuilding(obj);
+    dynamicObjects.push_back(obj);
+    obj->getOwner()->addHero(obj);
+}
+
+const std::vector<std::shared_ptr<GameObject>> &Map::getDynamicObjects() const {
+    return dynamicObjects;
+}
+
+const sf::Vector2i &Map::getSelection() const {
+    return selection;
+}
+
+Player *Map::currentPlayer() {
+    return playerQueue.getCurrentPlayer().get();
+}
+
+void Map::moveHero() {
+    auto x= static_cast<int>(selectedHero->getX()-selection.x);
+    auto y= static_cast<int>(selectedHero->getY()-selection.y);
+    if(abs(static_cast<int>(selectedHero->getX()-selection.x))<=1&&abs(static_cast<int>(selectedHero->getY()-selection.y))<=1) {
+        if(selectedHero->move(*fieldLayer[selection.x][selection.y].get()))
+        {
+            fieldLayer[selectedHero->getX()][selectedHero->getY()]->resetCost();
+            selectedHero->setX(selection.x);
+            selectedHero->setY(selection.y);
+            fieldLayer[selection.x][selection.y]->addBuilding(selectedHero);
+        }
+    }
+    selectedHero= nullptr;
 }
