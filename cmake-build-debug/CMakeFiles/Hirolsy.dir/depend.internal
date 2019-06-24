@@ -71,6 +71,7 @@ CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o
 CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/Events/Event.h
  /home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h
+ /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.h
  /home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.cpp
@@ -248,11 +249,15 @@ CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.cpp
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Sawmill.h
 CMakeFiles/Hirolsy.dir/GameLogic/Player.cpp.o
+ /home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Hero.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.cpp
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Player.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h
+ /home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h
 CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/GameObject.h
  /home/adao1003/CLionProjects/Hirolsy/GameLogic/Mines/Mine.h

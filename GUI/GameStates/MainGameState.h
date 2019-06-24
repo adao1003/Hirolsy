@@ -11,6 +11,7 @@
 class Map;
 class MainGameState: public State{
     Map& map = const_cast<Map&>(stateMachine.getGame().getMap());
+    static void NewTurnButtonFun(GUIObject &guiObject, StateMachine &stateM);
 public:
     MainGameState(sf::RenderWindow &window, StateMachine &stateMachine, const std::shared_ptr<State> &prevState);
 };

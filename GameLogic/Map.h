@@ -35,6 +35,7 @@ public:
     const sf::Vector2i &getSelection() const;
     Player* currentPlayer();
     void moveHero();
+    void newTurn();
 };
 
 

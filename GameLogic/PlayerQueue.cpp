@@ -7,6 +7,7 @@
 void PlayerQueue::nextPlayer() {
     if(++currentPlayer==queue.end())
         currentPlayer=queue.begin();
+    currentPlayer->get()->newTurn();
 }
 
 const std::shared_ptr<Player> &PlayerQueue::getCurrentPlayer() const {

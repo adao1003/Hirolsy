@@ -20,6 +20,7 @@ public:
     void addTown(std::shared_ptr<Town> ptr);
     void addHero(std::shared_ptr<Hero> ptr);
     void addMine(std::shared_ptr<Mine> ptr);
+    void newTurn();
 };
 
 

@@ -29,6 +29,7 @@ public:
         return owner;
     }
     bool move(Field &field);
+    void resetMove();
 };
 
 

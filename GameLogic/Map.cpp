@@ -103,3 +103,7 @@ void Map::moveHero() {
     }
     selectedHero= nullptr;
 }
+
+void Map::newTurn() {
+    playerQueue.nextPlayer();
+}

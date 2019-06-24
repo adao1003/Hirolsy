@@ -12,3 +12,7 @@ bool Hero::move(Field &field) {
         return true;
     }
 }
+
+void Hero::resetMove() {
+    currentMovementPoints=movementPointsMax;
+}
