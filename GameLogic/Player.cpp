@@ -24,3 +24,7 @@ void Player::newTurn() {
         it->resetMove();
     }
 }
+
+const std::string &Player::getName() const {
+    return name;
+}

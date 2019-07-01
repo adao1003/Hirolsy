@@ -7,8 +7,8 @@
 #include <SFML/Window/Mouse.hpp>
 
 MapView::MapView(sf::RenderWindow &window, const sf::Vector2f &vec, Map &map,
-                 const std::function<void(GUIObject &, StateMachine &)> &onClick) :  GUIObject(window, sf::Sprite(),
-                                                                                                        vec, onClick),map(map) {
+                 const std::function<void(GUIObject &, StateMachine &)> &onClick) : GUIObject(window,
+                                                                                              vec, onClick), map(map) {
     renderTexture->create(1280,800);
     sprite = sf::Sprite(renderTexture->getTexture());
     sprite.setPosition(vec);
@@ -21,7 +21,7 @@ MapView::MapView(sf::RenderWindow &window, const sf::Vector2f &vec, Map &map,
 void MapView::draw() {
     poz = sf::Mouse::getPosition();
     renderTexture->clear();
-    auto temp = sf::Sprite(map.getTileMap()->getTexture());
+    auto temp = map.getTileMap();
     renderTexture->draw(temp);
     for(auto &it:map.getBuildings())
     {
@@ -35,7 +35,7 @@ void MapView::draw() {
     sel.setPosition(map.getSelection().x*64, map.getSelection().y*64);
     renderTexture->draw(sel);
     renderTexture->display();
-    GUIObject::draw();
+    window.draw(sprite);
 }
 
 void MapView::onRightClick(GUIObject &g, StateMachine &s) {
@@ -60,4 +60,8 @@ void MapView::onLeftClick(GUIObject &g, StateMachine &s) {
     unsigned int x = (poz.x-pozView.x+(view.getCenter().x-obj->renderTexture->getSize().x/2))/64;
     unsigned int y = (poz.y-pozView.y+(view.getCenter().y-obj->renderTexture->getSize().y/2))/64;
     obj->map.select(x, y);
+}
+
+bool MapView::isMouseHover() {
+    return sprite.getGlobalBounds().contains(static_cast<sf::Vector2f>(sf::Mouse::getPosition(window)));
 }

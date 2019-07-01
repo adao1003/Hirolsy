@@ -10,11 +10,15 @@
 #include "GUIObject.h"
 
 class Button: public GUIObject {
+    sf::Sprite sprite;
 public:
 
     Button(sf::RenderWindow &window, sf::Texture &texture, const sf::Vector2f &vec,
            const std::function<void(GUIObject&, StateMachine &)> &onClick= GUIObject::empty);
 
+    void draw() override;
+
+    bool isMouseHover() override;
 };
 
 

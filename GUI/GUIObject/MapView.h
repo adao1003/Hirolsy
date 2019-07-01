@@ -13,6 +13,7 @@
 
 class MapView: public GUIObject {
     Map& map;
+    sf::Sprite sprite;
     std::unique_ptr<sf::RenderTexture> renderTexture = std::make_unique<sf::RenderTexture>();
     static void onRightClick(GUIObject& g, StateMachine& s);
     static void onLeftClick(GUIObject& g, StateMachine& s);
@@ -23,6 +24,8 @@ public:
             const std::function<void(GUIObject &, StateMachine &)> &onClick = MapView::onLeftClick);
     const sf::Vector2i &getPoz() const;
     friend void onLeftClick(GUIObject& g, StateMachine& s);
+
+    bool isMouseHover() override;
 };
 
 

@@ -258,33 +258,6 @@ GUI/GUIObject/GUIObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.s
 .PHONY : GUI/GUIObject/GUIObject.cpp.s
 
-GUI/GUIObject/HeroesList.o: GUI/GUIObject/HeroesList.cpp.o
-
-.PHONY : GUI/GUIObject/HeroesList.o
-
-# target to build an object file
-GUI/GUIObject/HeroesList.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o
-.PHONY : GUI/GUIObject/HeroesList.cpp.o
-
-GUI/GUIObject/HeroesList.i: GUI/GUIObject/HeroesList.cpp.i
-
-.PHONY : GUI/GUIObject/HeroesList.i
-
-# target to preprocess a source file
-GUI/GUIObject/HeroesList.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.i
-.PHONY : GUI/GUIObject/HeroesList.cpp.i
-
-GUI/GUIObject/HeroesList.s: GUI/GUIObject/HeroesList.cpp.s
-
-.PHONY : GUI/GUIObject/HeroesList.s
-
-# target to generate assembly for a file
-GUI/GUIObject/HeroesList.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.s
-.PHONY : GUI/GUIObject/HeroesList.cpp.s
-
 GUI/GUIObject/MapView.o: GUI/GUIObject/MapView.cpp.o
 
 .PHONY : GUI/GUIObject/MapView.o
@@ -311,6 +284,33 @@ GUI/GUIObject/MapView.s: GUI/GUIObject/MapView.cpp.s
 GUI/GUIObject/MapView.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.s
 .PHONY : GUI/GUIObject/MapView.cpp.s
+
+GUI/GUIObject/Text.o: GUI/GUIObject/Text.cpp.o
+
+.PHONY : GUI/GUIObject/Text.o
+
+# target to build an object file
+GUI/GUIObject/Text.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/Text.cpp.o
+.PHONY : GUI/GUIObject/Text.cpp.o
+
+GUI/GUIObject/Text.i: GUI/GUIObject/Text.cpp.i
+
+.PHONY : GUI/GUIObject/Text.i
+
+# target to preprocess a source file
+GUI/GUIObject/Text.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/Text.cpp.i
+.PHONY : GUI/GUIObject/Text.cpp.i
+
+GUI/GUIObject/Text.s: GUI/GUIObject/Text.cpp.s
+
+.PHONY : GUI/GUIObject/Text.s
+
+# target to generate assembly for a file
+GUI/GUIObject/Text.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GUI/GUIObject/Text.cpp.s
+.PHONY : GUI/GUIObject/Text.cpp.s
 
 GUI/GameStates/MainGameState.o: GUI/GameStates/MainGameState.cpp.o
 
@@ -933,32 +933,32 @@ GameLogic/Unit.cpp.s:
 	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.s
 .PHONY : GameLogic/Unit.cpp.s
 
-Settings.o: Settings.cpp.o
+TileMap.o: TileMap.cpp.o
 
-.PHONY : Settings.o
+.PHONY : TileMap.o
 
 # target to build an object file
-Settings.cpp.o:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/Settings.cpp.o
-.PHONY : Settings.cpp.o
+TileMap.cpp.o:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/TileMap.cpp.o
+.PHONY : TileMap.cpp.o
 
-Settings.i: Settings.cpp.i
+TileMap.i: TileMap.cpp.i
 
-.PHONY : Settings.i
+.PHONY : TileMap.i
 
 # target to preprocess a source file
-Settings.cpp.i:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/Settings.cpp.i
-.PHONY : Settings.cpp.i
+TileMap.cpp.i:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/TileMap.cpp.i
+.PHONY : TileMap.cpp.i
 
-Settings.s: Settings.cpp.s
+TileMap.s: TileMap.cpp.s
 
-.PHONY : Settings.s
+.PHONY : TileMap.s
 
 # target to generate assembly for a file
-Settings.cpp.s:
-	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/Settings.cpp.s
-.PHONY : Settings.cpp.s
+TileMap.cpp.s:
+	$(MAKE) -f CMakeFiles/Hirolsy.dir/build.make CMakeFiles/Hirolsy.dir/TileMap.cpp.s
+.PHONY : TileMap.cpp.s
 
 main.o: main.cpp.o
 
@@ -1011,12 +1011,12 @@ help:
 	@echo "... GUI/GUIObject/GUIObject.o"
 	@echo "... GUI/GUIObject/GUIObject.i"
 	@echo "... GUI/GUIObject/GUIObject.s"
-	@echo "... GUI/GUIObject/HeroesList.o"
-	@echo "... GUI/GUIObject/HeroesList.i"
-	@echo "... GUI/GUIObject/HeroesList.s"
 	@echo "... GUI/GUIObject/MapView.o"
 	@echo "... GUI/GUIObject/MapView.i"
 	@echo "... GUI/GUIObject/MapView.s"
+	@echo "... GUI/GUIObject/Text.o"
+	@echo "... GUI/GUIObject/Text.i"
+	@echo "... GUI/GUIObject/Text.s"
 	@echo "... GUI/GameStates/MainGameState.o"
 	@echo "... GUI/GameStates/MainGameState.i"
 	@echo "... GUI/GameStates/MainGameState.s"
@@ -1086,9 +1086,9 @@ help:
 	@echo "... GameLogic/Unit.o"
 	@echo "... GameLogic/Unit.i"
 	@echo "... GameLogic/Unit.s"
-	@echo "... Settings.o"
-	@echo "... Settings.i"
-	@echo "... Settings.s"
+	@echo "... TileMap.o"
+	@echo "... TileMap.i"
+	@echo "... TileMap.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

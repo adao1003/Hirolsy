@@ -10,11 +10,8 @@
 #include <SFML/Graphics/Sprite.hpp>
 
 class GameObject {
+protected:
     sf::Sprite sprite;
-public:
-    const sf::Sprite &getSprite() const;
-
-private:
     unsigned int x = 0;
     unsigned int y = 0;
 public:
@@ -24,9 +21,8 @@ public:
     virtual void temp() {}; // Dla polimorfizmu ;)
     unsigned int getX() const;
     unsigned int getY() const;
-
+    const sf::Sprite &getSprite() const;
     void setX(unsigned int x);
-
     void setY(unsigned int y);
 };
 

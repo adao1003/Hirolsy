@@ -12,7 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hirolsy.dir/GUI/ResourcesContainer.cpp.o"
   "CMakeFiles/Hirolsy.dir/Events/Event.cpp.o"
   "CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o"
-  "CMakeFiles/Hirolsy.dir/Settings.cpp.o"
   "CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o"
   "CMakeFiles/Hirolsy.dir/GUI/StateFactory.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/GameObject.cpp.o"
@@ -30,7 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Mines/Sawmill.cpp.o"
   "CMakeFiles/Hirolsy.dir/GameLogic/Mines/Quarry.cpp.o"
-  "CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o"
+  "CMakeFiles/Hirolsy.dir/TileMap.cpp.o"
+  "CMakeFiles/Hirolsy.dir/GUI/GUIObject/Text.cpp.o"
   "Hirolsy.pdb"
   "Hirolsy"
 )

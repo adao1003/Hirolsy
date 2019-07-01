@@ -10,15 +10,7 @@
 #include "Mines/Quarry.h"
 
 void Map::generatorTileMap() {
-    tileMap->create(fieldLayer[0].size()*64, fieldLayer.size()*64);
-    for (int i = 0; i < fieldLayer.size(); ++i) {
-        for (int j = 0; j < fieldLayer[0].size(); ++j) {
-            auto temp = sf::Sprite(*fieldsTexture, sf::IntRect(fieldLayer[i][j]->getOffset(), sf::Vector2i(64,64)));
-            temp.setPosition(i*64, j*64);
-            tileMap->draw(temp);
-        }
-    }
-    tileMap->display();
+    tileMap.load(fieldsTexture, sf::Vector2u(64,64), fieldLayer);
 }
 
 Map Map::load() {
@@ -47,7 +39,7 @@ Map Map::load() {
     return map;
 }
 
-const std::unique_ptr<sf::RenderTexture> &Map::getTileMap() const {
+const TileMap & Map::getTileMap() const {
     return tileMap;
 }
 
@@ -85,7 +77,7 @@ const sf::Vector2i &Map::getSelection() const {
     return selection;
 }
 
-Player *Map::currentPlayer() {
+Player *Map::currentPlayer() const {
     return playerQueue.getCurrentPlayer().get();
 }
 

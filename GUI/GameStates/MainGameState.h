@@ -8,12 +8,17 @@
 
 #include "../StateMachine.h"
 #include "../../Game.h"
+#include "../GUIObject/Text.h"
+
 class Map;
 class MainGameState: public State{
     Map& map = const_cast<Map&>(stateMachine.getGame().getMap());
     static void NewTurnButtonFun(GUIObject &guiObject, StateMachine &stateM);
+    std::shared_ptr<Text> text0;
 public:
     MainGameState(sf::RenderWindow &window, StateMachine &stateMachine, const std::shared_ptr<State> &prevState);
+
+    void render() override;
 };
 
 

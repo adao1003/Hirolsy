@@ -9,8 +9,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adao1003/CLionProjects/Hirolsy/Events/GUIEvent.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/Events/GUIEvent.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GUIObject/Button.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/GUIObject.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GUIObject/GUIObject.cpp.o"
-  "/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/HeroesList.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GUIObject/HeroesList.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/MapView.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GUIObject/MapView.cpp.o"
+  "/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Text.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GUIObject/Text.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GameStates/MainGameState.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainMenuState.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GameStates/MainMenuState.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/NewGameState.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GUI/GameStates/NewGameState.cpp.o"
@@ -34,7 +34,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/PlayerQueue.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/PlayerQueue.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Town.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/GameLogic/Unit.cpp.o"
-  "/home/adao1003/CLionProjects/Hirolsy/Settings.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/Settings.cpp.o"
+  "/home/adao1003/CLionProjects/Hirolsy/TileMap.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/TileMap.cpp.o"
   "/home/adao1003/CLionProjects/Hirolsy/main.cpp" "/home/adao1003/CLionProjects/Hirolsy/cmake-build-debug/CMakeFiles/Hirolsy.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

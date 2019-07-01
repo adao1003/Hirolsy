@@ -27,11 +27,8 @@ public:
             : prevState(prevState), window(window), stateMachine(stateMachine) {}
 
     const std::shared_ptr<State> &getPrevState() const;
-
     void setPrevState(const std::shared_ptr<State> &prevState);
-
     virtual void render();
-
     virtual void input();
 };
 

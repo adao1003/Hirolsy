@@ -18,7 +18,8 @@ class ResourcesContainer {
     std::unordered_map<std::string, sf::Font> fonts;
     ResourcesContainer();
     ~ResourcesContainer() = default;
-    sf::Texture empty;
+    sf::Texture emptyTexture;
+    sf::Font emptyFont;
 public:
     ResourcesContainer(const ResourcesContainer& t) = delete;
     static ResourcesContainer& getInstance()
@@ -26,7 +27,8 @@ public:
         static ResourcesContainer sig;
         return sig;
     }
-    sf::Texture& getTexture(std::string string);
+    sf::Texture& getTexture(const std::string &string);
+    sf::Font& getFont(const std::string &string);
 
 };
 
