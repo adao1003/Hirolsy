@@ -9,3 +9,7 @@ Mountains::Mountains() : Field(std::numeric_limits<double>::max(), sf::Vector2i(
 void Mountains::resetCost() {
     cost = std::numeric_limits<double>::max();
 }
+
+Field *Mountains::clone() {
+    return new Mountains(*this);
+}

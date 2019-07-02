@@ -8,13 +8,15 @@
 #include "Fields/Mountains.h"
 #include "Fields/Road.h"
 #include "Mines/Quarry.h"
+#include "Units/Unit0.h"
+#include "Units/Unit1.h"
 
 void Map::generatorTileMap() {
     tileMap.load(fieldsTexture, sf::Vector2u(64,64), fieldLayer);
 }
 
-Map Map::load() {
-    Map map;
+Map Map::load(StateMachine &stateMachine) {
+    Map map(stateMachine);
     for(int i = 0;i<100;i++)
         map.fieldLayer.emplace_back(100);
     for (int i = 0; i < 100; ++i) {
@@ -34,8 +36,19 @@ Map Map::load() {
     auto player1 = std::make_shared<Player>("Player1");
     map.playerQueue.addPlayer(player0);
     map.playerQueue.addPlayer(player1);
-    map.addHero(std::make_shared<Hero>(6, 6, player0.get()));
-    map.addHero(std::make_shared<Hero>(8, 8, player1.get()));
+    auto hero00 = std::make_shared<Hero>(6, 6, player0.get());
+    auto hero10 = std::make_shared<Hero>(8, 8, player1.get());
+    hero00->addUnit(std::make_shared<Unit0>(player0.get()));
+//    hero00->addUnit(std::make_shared<Unit1>(player0.get()));
+//    hero00->addUnit(std::make_shared<Unit1>(player0.get()));
+//    hero00->addUnit(std::make_shared<Unit0>(player0.get()));
+
+    hero10->addUnit(std::make_shared<Unit0>(player1.get()));
+//    hero10->addUnit(std::make_shared<Unit1>(player1.get()));
+//    hero10->addUnit(std::make_shared<Unit0>(player1.get()));
+//    hero10->addUnit(std::make_shared<Unit1>(player1.get()));
+    map.addHero(hero00);
+    map.addHero(hero10);
     return map;
 }
 
@@ -85,6 +98,15 @@ void Map::moveHero() {
     auto x= static_cast<int>(selectedHero->getX()-selection.x);
     auto y= static_cast<int>(selectedHero->getY()-selection.y);
     if(abs(static_cast<int>(selectedHero->getX()-selection.x))<=1&&abs(static_cast<int>(selectedHero->getY()-selection.y))<=1) {
+        if(fieldLayer[selection.x][selection.y]->getVisitedObject())
+            if(auto temp = std::dynamic_pointer_cast<Hero>((*fieldLayer[selection.x][selection.y]->getVisitedObject())))
+                if(temp->getOwner()!=currentPlayer()){
+                    currentBattle=std::make_unique<Battle>(selectedHero.get(), temp.get());
+                    currentBattle->setMap(this);
+                    stateMachine.pushState(stateMachine.stateFactory.createState(stateMachine.stateFactory.Battle));
+
+                    return;
+                }
         if(selectedHero->move(*fieldLayer[selection.x][selection.y].get()))
         {
             fieldLayer[selectedHero->getX()][selectedHero->getY()]->resetCost();
@@ -98,4 +120,22 @@ void Map::moveHero() {
 
 void Map::newTurn() {
     playerQueue.nextPlayer();
+}
+
+Map::Map(StateMachine &stateMachine) : stateMachine(stateMachine) {}
+
+const std::unique_ptr<Battle> &Map::getCurrentBattle() const {
+    return currentBattle;
+}
+
+void Map::removeHero(Hero *hero) {
+    for(auto it = dynamicObjects.begin(); it!=dynamicObjects.end();it++)
+    {
+        if(it->get()==hero){
+            fieldLayer[hero->getX()][hero->getY()]->resetCost();
+            dynamicObjects.erase(it);
+            break;
+        }
+
+    }
 }

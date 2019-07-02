@@ -11,9 +11,9 @@
 class Grass: public Field {
 public:
     void resetCost() override;
-
-public:
     Grass();
+  //  Grass(const Grass& grass) = default;
+    Field *clone() override;
 };
 
 

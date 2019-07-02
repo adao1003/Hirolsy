@@ -8,7 +8,7 @@
 
 #include <memory>
 #include <vector>
-#include "Unit.h"
+#include "Units/Unit.h"
 #include "GameObject.h"
 #include "../GUI/ResourcesContainer.h"
 #include "Player.h"
@@ -19,17 +19,17 @@ class Hero: public GameObject {
     Player* owner;
     double movementPointsMax = 15;
     double currentMovementPoints = 15;
+    unsigned int maxUnits = 8;
     std::vector<std::shared_ptr<Unit>> units;
 public:
     Hero(unsigned int x, unsigned int y, Player *owner) : GameObject(x, y, ResourcesContainer::getInstance().getTexture("hero.png")),
-                                                          owner(owner) {
-    }
-
-    Player *getOwner() const {
-        return owner;
-    }
+                                                          owner(owner) {}
+    Player *getOwner() const;
     bool move(Field &field);
     void resetMove();
+    bool addUnit(std::shared_ptr<Unit> unit);
+
+    const std::vector<std::shared_ptr<Unit>> &getUnits() const;
 };
 
 

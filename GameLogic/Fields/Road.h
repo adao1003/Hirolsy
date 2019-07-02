@@ -13,6 +13,8 @@ public:
     Road();
 
     void resetCost() override;
+
+    Field *clone() override;
 };
 
 

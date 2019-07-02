@@ -7,6 +7,7 @@
 #include "StateFactory.h"
 #include "GameStates/NewGameState.h"
 #include "GameStates/MainGameState.h"
+#include "GameStates/BattleState.h"
 
 std::shared_ptr<State> StateFactory::createState(stateName name, std::shared_ptr<State> prevState) {
     switch (name) {
@@ -16,6 +17,8 @@ std::shared_ptr<State> StateFactory::createState(stateName name, std::shared_ptr
             return std::dynamic_pointer_cast<State>(std::make_shared<NewGameState>(window, stateMachine, prevState));
         case MainGame:
             return std::dynamic_pointer_cast<State>(std::make_shared<MainGameState>(window, stateMachine, prevState));
+        case Battle:
+            return std::dynamic_pointer_cast<State>(std::make_shared<BattleState>(window, stateMachine, prevState));
     }
 }
 

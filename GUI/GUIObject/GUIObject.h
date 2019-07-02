@@ -20,8 +20,8 @@ public:
     //static void test (StateMachine& e);
     std::function<void(StateMachine&)> onClick;
     std::function<void(StateMachine&)> onRightClick = std::bind(GUIObject::empty, std::ref(*this), std::placeholders::_1);
-    virtual void draw() = 0;
-    virtual bool isMouseHover() = 0;
+    virtual void draw() {};
+    virtual bool isMouseHover() {};
     virtual void update() {};
     GUIObject(sf::RenderWindow &window, const sf::Vector2f &vec,
               std::function<void(GUIObject &, StateMachine &)> onClick = GUIObject::empty);

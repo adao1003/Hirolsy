@@ -16,3 +16,20 @@ bool Hero::move(Field &field) {
 void Hero::resetMove() {
     currentMovementPoints=movementPointsMax;
 }
+
+Player *Hero::getOwner() const {
+    return owner;
+}
+
+bool Hero::addUnit(std::shared_ptr<Unit> unit) {
+    if(units.size()<maxUnits)
+    {
+        units.push_back(unit);
+        return true;
+    }
+    return false;
+}
+
+const std::vector<std::shared_ptr<Unit>> &Hero::getUnits() const {
+    return units;
+}

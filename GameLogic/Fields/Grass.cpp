@@ -9,3 +9,7 @@ Grass::Grass() : Field(2, sf::Vector2i(64, 0)) {}
 void Grass::resetCost() {
     cost = 2;
 }
+
+Field *Grass::clone() {
+    return new Grass(*this);
+}

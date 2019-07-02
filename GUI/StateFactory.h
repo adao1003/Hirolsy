@@ -10,7 +10,6 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include "GameStates/State.h"
 #include "GameStates/MainMenuState.h"
-#include "../Events/EventQueue.h"
 
 class StateFactory {
     sf::RenderWindow& window;
@@ -20,7 +19,8 @@ public:
     enum stateName{
         MainMenu,
         NewGame,
-        MainGame
+        MainGame,
+        Battle
     };
     std::shared_ptr<State> createState(stateName name, std::shared_ptr<State> prevState = nullptr);
 };

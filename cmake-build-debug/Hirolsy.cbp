@@ -84,22 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/Event.cpp">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/BattleView.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/Event.h">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.cpp">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/EventQueue.h">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/GUIEvent.cpp">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Events/GUIEvent.h">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/BattleView.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Button.cpp">
@@ -126,6 +114,12 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GUIObject/Text.h">
 			<Option target="Hirolsy"/>
 		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/BattleState.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/BattleState.h">
+			<Option target="Hirolsy"/>
+		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/MainGameState.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
@@ -150,12 +144,6 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/GameStates/State.h">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/Input.cpp">
-			<Option target="Hirolsy"/>
-		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/Input.h">
-			<Option target="Hirolsy"/>
-		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GUI/ResourcesContainer.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
@@ -178,6 +166,18 @@
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/Game.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Battle/Battle.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Battle/Battle.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Battle/BattleFieldPart.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Battle/BattleFieldPart.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Fields/Field.cpp">
@@ -258,10 +258,22 @@
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Town.h">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.cpp">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Units/Unit.cpp">
 			<Option target="Hirolsy"/>
 		</Unit>
-		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Unit.h">
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Units/Unit.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Units/Unit0.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Units/Unit0.h">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Units/Unit1.cpp">
+			<Option target="Hirolsy"/>
+		</Unit>
+		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/GameLogic/Units/Unit1.h">
 			<Option target="Hirolsy"/>
 		</Unit>
 		<Unit filename="/home/adao1003/CLionProjects/Hirolsy/TileMap.cpp">

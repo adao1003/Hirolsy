@@ -9,3 +9,7 @@ Road::Road() : Field(1, sf::Vector2i(0, 0)) {}
 void Road::resetCost() {
     cost =1;
 }
+
+Field *Road::clone() {
+    return new Road(*this);
+}

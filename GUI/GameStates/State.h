@@ -9,7 +9,6 @@
 #include <vector>
 #include <memory>
 #include "../GUIObject/GUIObject.h"
-#include "../../Events/EventQueue.h"
 #include "../StateMachine.h"
 #include <SFML/Graphics/RenderWindow.hpp>
 class GUIObject;

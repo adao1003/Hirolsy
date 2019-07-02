@@ -27,9 +27,13 @@ void State::input() {
             case sf::Event::MouseButtonPressed:
                 for(auto& it:items)
                 {
+                    if(it==nullptr)
+                        continue;
                     if(it->isMouseHover())
-                        if(event.mouseButton.button==sf::Mouse::Left)
+                        if(event.mouseButton.button==sf::Mouse::Left) {
                             it->onClick(stateMachine);
+                            return;
+                        }
                 }
                 break;
 

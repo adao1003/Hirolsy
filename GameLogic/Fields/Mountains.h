@@ -14,6 +14,8 @@ public:
 
 public:
     Mountains();
+
+    Field *clone() override;
 };
 
 

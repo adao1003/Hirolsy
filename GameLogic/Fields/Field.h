@@ -23,6 +23,7 @@ public:
     virtual void resetCost() = 0;
     void addBuilding(const std::shared_ptr<GameObject>& ptr);
     std::optional<std::shared_ptr<GameObject>> getVisitedObject();
+    virtual Field* clone() = 0;
 };
 
 
